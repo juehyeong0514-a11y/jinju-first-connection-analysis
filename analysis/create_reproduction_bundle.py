@@ -7,7 +7,8 @@ from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1]
 files=set()
 def include(pattern):files.update(p for p in ROOT.glob(pattern) if p.is_file())
-for pattern in ['analysis/*.py','RUN_ANALYSIS.txt','output/pdf/jinju_first_connection*.pdf',
+for pattern in ['analysis/*.py','RUN_ANALYSIS.txt','submission/*.json','output/pdf/jinju_first_connection*.pdf',
+ 'output/submission/*_분석보고서.pdf','output/submission/*.txt','output/submission/*.hwp',
  'outputs/all_stops.json','outputs/candidate_citybus_paths.json','outputs/suggested_transfer_paths.json',
  'outputs/strengthened/*.json','outputs/strengthened/*.csv','outputs/robust/*.json','outputs/robust/*.csv',
  'data/raw/case_times/*.json','data/raw/citybus_timetables/*.json','data/raw/network/*.json','data/raw/transfer_candidates/*.json','data/raw/route_samples/*.json',

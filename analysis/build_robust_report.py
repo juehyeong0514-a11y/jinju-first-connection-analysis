@@ -78,7 +78,7 @@ def footer(c,doc):
     c.setFont('KR',7.4);c.setFillColor(GRAY);c.drawString(44,30,'2026.10.08 | v3 공개자료 검증판 | 시간표 계산·운영 가정');c.drawRightString(551,30,str(doc.page))
 def build(name,title):
     path=ROOT/'output/pdf'/name
-    doc=SimpleDocTemplate(str(path),pagesize=(595.276,841.89),leftMargin=44,rightMargin=44,topMargin=40,bottomMargin=58,title=title,author='교통 데이터 분석 / Codex 협업')
+    doc=SimpleDocTemplate(str(path),pagesize=(595.276,841.89),leftMargin=44,rightMargin=44,topMargin=40,bottomMargin=58,title=title,author=IDENTITY.get('participant','교통 데이터 분석 / Codex 협업'))
     doc.build(story,onFirstPage=footer,onLaterPages=footer);print(path)
 
 def cost_rows():
@@ -179,7 +179,7 @@ else:
     for title,reason,url in refs:
         add(title,ParagraphStyle('refhead',parent=small,textColor=TEAL,spaceAfter=1))
         add(escape(reason)+'<br/><link href="'+escape(url,quote=True)+'" color="#526B79">'+escape(url)+'</link>',mini)
-add('조회일 2026.10.08. 날짜별 배차·잔여석은 조회 당시 정보다. 원문·요청조건·출처는 재현 묶음에 보존하되 인증키·쿠키·CSRF가 든 페이지는 배제한다. 공개 자료 이용조건 확인은 외부 공개 전 제출 정리 단계의 작업이다.',small)
+add('조회일 2026.10.08. 날짜별 배차·잔여석은 조회 당시 정보다. 원문·요청조건·출처는 로컬 재현 묶음에 보존하되 인증키·쿠키·CSRF가 든 페이지는 배제한다. 공개 GitHub는 코드와 집계표를 제공하며 전체 원문 캐시의 이용허락을 새로 부여하거나 재배포하는 저장소가 아니다.',small)
 build('jinju_first_connection_analysis.pdf','첫차의 연결이 서울 도착 기회를 바꾼다: 공개자료 검증판')
 if IDENTITY.get('participant'):
     import shutil
@@ -245,5 +245,5 @@ add('주요 AI 지시와 적용',sub)
 add('① 같은 목적지의 이른 도착과 첫 운행 개선을 분석 ② 버스 외 철도 대안도 확인 ③ 공개자료 중심으로 지역 규모·누락 경로·요일/목적지·비용을 보강. Codex가 수집·계산·반례·문서 작업을 수행했다. 핵심 반례: 첫차 묶음과 지선 혼동, 가상 정류장 코드, 일요일 고정안 실패, 토요일 매진, 가족 동승, 좌석 초과, 도착 기회와 긴 여정.',small)
 add('공개자료 분석으로 남는 것',sub)
 add('추가 설문·현장 관측 없이 신규 탑승 수요나 실측 성공률을 확인하지 않았다. 남는 미대응 추천344개, 요일 미분류 상세표4응답, 미래 일반열차 불완전 수집, 임시 시간표, 보행·통과 예상치, 실제 새벽 견적을 명시했다. 분석 질문의 답은 조건부 후보 비교이며 모든 대안의 최적해나 사업 타당성 확정이 아니다.',small)
-add('본문 참고문헌 [1]-[13] 및 캐시 메타데이터를 함께 보관한다. 초기 접수 시에도 GitHub/클라우드 코드 링크가 필수다. 참가자·팀 정보, 파일명, 접근 가능한 코드 링크는 제출 정리 단계에서 확정한다. 현재 묶음은 로컬 검증용으로 외부 접수·게시를 수행하지 않았다.',small)
+add('본문 참고문헌 [1]-[13] 및 캐시 메타데이터를 함께 보관한다. 김주형 개인 참가 보고서에 공개 GitHub 코드 링크를 기입했다. 공개 저장소의 review_results.py는 집계표와 비용을 키 없이 검토하며, 원문 경로 결합의 전체 재현은 별도 로컬 캐시 묶음을 사용한다. 공식 참가신청서의 소속·연락처·동의·서명은 참가자가 확인/작성해야 한다. 이메일 접수는 수행하지 않았다.',small)
 build('jinju_first_connection_evidence.pdf','첫차 연결 분석: 공개자료 복원과 운영 검증 부록')
