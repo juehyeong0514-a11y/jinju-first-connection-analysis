@@ -1,0 +1,98 @@
+[
+  {
+    "reference": "1",
+    "data_name": "노선·시간표·예상시간·추천경로",
+    "provider": "경상남도 진주시",
+    "platform": "진주 BIS",
+    "url": "https://bis.jinju.go.kr/addInfo/addInfoTimeTable.do",
+    "selection_reason": "방향·요일·정류장 연결"
+  },
+  {
+    "reference": "2",
+    "data_name": "TAGO 고속버스정보",
+    "provider": "국토교통부",
+    "platform": "공공데이터포털",
+    "url": "https://www.data.go.kr/data/15098522/openapi.do",
+    "selection_reason": "10/8 장거리 시각"
+  },
+  {
+    "reference": "3",
+    "data_name": "TAGO 열차정보",
+    "provider": "국토교통부",
+    "platform": "공공데이터포털",
+    "url": "https://www.data.go.kr/data/15098552/openapi.do",
+    "selection_reason": "철도 대안·열차번호"
+  },
+  {
+    "reference": "4",
+    "data_name": "서울 도시철도 열차운행시각표",
+    "provider": "서울교통공사",
+    "platform": "공공데이터포털",
+    "url": "https://www.data.go.kr/data/15098251/fileData.do",
+    "selection_reason": "전철 요일·열차 연결"
+  },
+  {
+    "reference": "5",
+    "data_name": "KTX·광명셔틀·수인분당 시각표",
+    "provider": "한국철도공사",
+    "platform": "코레일 홈페이지",
+    "url": "https://www.korail.com/com/userBoard.do?mode=list&schBcid=ticketTable",
+    "selection_reason": "미래 철도·환승 보완"
+  },
+  {
+    "reference": "6",
+    "data_name": "공개 지도 보행·방향·택시 참고액",
+    "provider": "카카오",
+    "platform": "카카오맵",
+    "url": "https://map.kakao.com/",
+    "selection_reason": "접근·방향·비용 가정"
+  },
+  {
+    "reference": "7",
+    "data_name": "노선·시간대·일별·행정동 승차",
+    "provider": "경상남도 진주시",
+    "platform": "진주 ITS",
+    "url": "https://its.jinju.go.kr/its/stt/view",
+    "selection_reason": "기존 승차 규모·합계 대조"
+  },
+  {
+    "reference": "8",
+    "data_name": "시내버스 운임",
+    "provider": "경상남도 진주시",
+    "platform": "진주 BIS",
+    "url": "https://bis.jinju.go.kr/addInfo/addInfoCharge.do",
+    "selection_reason": "공통 본인부담 가정"
+  },
+  {
+    "reference": "9",
+    "data_name": "날짜별 배차·예상 소요·잔여석",
+    "provider": "전국고속버스운송사업조합",
+    "platform": "KOBUS",
+    "url": "https://www.kobus.co.kr/oprninf/alcninqr/oprnAlcnPage.do",
+    "selection_reason": "미래 API 공백 대조"
+  },
+  {
+    "reference": "10",
+    "data_name": "TAGO 시외버스정보",
+    "provider": "국토교통부",
+    "platform": "공공데이터포털",
+    "url": "https://www.data.go.kr/data/15098541/openapi.do",
+    "selection_reason": "결측·보조 대안 점검"
+  },
+  {
+    "reference": "12",
+    "data_name": "공동주택현황(20세대 이상)",
+    "provider": "경상남도 진주시",
+    "platform": "공공데이터포털",
+    "url": "https://www.data.go.kr/data/15046124/fileData.do",
+    "selection_reason": "관련 단지 주택 수"
+  },
+  {
+    "reference": "13",
+    "data_name": "충무공동 세대 및 인구",
+    "provider": "경상남도 진주시",
+    "platform": "진주시 홈페이지",
+    "url": "https://www.jinju.go.kr/00135/01114/01906.web",
+    "selection_reason": "행정동 규모와 단지 구분"
+  }
+]

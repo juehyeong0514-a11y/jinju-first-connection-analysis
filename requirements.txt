@@ -1,0 +1,3 @@
+# Optional report/Excel preprocessing dependencies; core/review uses stdlib
+reportlab>=4.0
+openpyxl>=3.1

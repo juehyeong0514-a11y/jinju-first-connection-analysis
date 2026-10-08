@@ -1,0 +1,6 @@
+{
+  "passed": 36105,
+  "failed": 0,
+  "scope": "공개 캐시의 순서·자료 대응·경계·비용 논리 검사. 실제 운행 성공률·신규 수요·계약 견적 검증이 아니다.",
+  "full_cache_reproduction": "Separate local bundle, source hashes and 5 exact reproduced outputs verified with networking disabled"
+}
