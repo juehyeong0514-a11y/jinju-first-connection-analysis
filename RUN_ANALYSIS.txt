@@ -1,7 +1,9 @@
 진주 새벽 첫 연결 분석 - 공개자료 검증판 v5 (2026-10-08)
 
 최신: 20개 대표 정류장, 5개 날짜, 강남/서울역/사당, 3개 지선배정 가정.
-본문5쪽+참고문헌1쪽, 검증부록13쪽. v1/v2 코드는 비교용 이전 버전입니다.
+공식 붙임2 구조의 본문5쪽(출처·참고문헌 포함), 검증부록13쪽.
+계산 v5는 유지하며 제출 문서의 항목·표 구조를 공식 양식에 맞췄습니다.
+v1/v2 코드는 비교용 이전 버전입니다.
 
 1. 캐시로 최신 분석 재현 (Python 3.10 이상, API 키·네트워크·추가 패키지 불필요)
    python3 analysis/repair_transfer_aliases.py
@@ -17,9 +19,18 @@
    시간순서·전철 열차번호·지선 경계·코드대응·비용 등 내부 논리 검사.
    검사 통과는 실제 운행 성공·실측 시간·신규 수요·계약 견적을 입증하지 않습니다.
 
-2. PDF 재생성 (reportlab 필요)
-   python3 analysis/build_robust_report.py
-   output/pdf/jinju_first_connection_analysis.pdf (본문5쪽+참고문헌)
+2. 공식 양식 문서 재생성 (python-docx, reportlab, pdftoppm 필요)
+   python3 analysis/build_official_report.py
+   output/submission/김주형_분석보고서.docx (공식 항목·표 구조, 본문5쪽)
+   원본 HWP에서 변환한 data/raw/contest_report_template.docx와
+   contest_report_assets/의 원본 로고를 사용. 변환 때 손실된 열 너비와 글꼴 복원.
+   DOCX를 LibreOffice/Word에서 PDF로 내보내고 모든 페이지를 확인하세요.
+   한글 글꼴이 없는 환경에서는 KR_DOC_FONT와 KR_FONT를 지정하세요.
+   제출용: output/submission/김주형_분석보고서.pdf
+   같은 PDF: output/pdf/jinju_first_connection_analysis.pdf
+   python3 analysis/check_official_report.py (python-docx, pypdf 필요; 5쪽·항목·출처·그림 검사)
+   python3 analysis/build_robust_report.py (별도 설명형 문서와 검증부록)
+   output/pdf/jinju_first_connection_explanatory.pdf (설명용, 제출본 아님)
    output/pdf/jinju_first_connection_evidence.pdf (별도 검증부록13쪽)
    macOS AppleGothic 사용. 다른 OS는 KR_FONT 환경변수에 한글 TTF 경로 지정.
    AppleGothic 글꼴 파일은 묶음에 포함하지 않습니다.
@@ -113,5 +124,7 @@ allowlist만 포함. 실제 .env 인증키 문자열을 검사하고 ZIP 파일�
 공개 분석 코드·집계 결과: https://github.com/juehyeong0514-a11y/jinju-first-connection-analysis
 공개 저장소 빠른 검토: python3 analysis/review_results.py (원문 경로 재현과 구분)
 김주형 개인 참가 정보와 코드 링크를 보고서에 기입했습니다. 제출 파일은
-output/submission/김주형_분석보고서.pdf. 공식 참가신청서·메일 초안도 같은 폴더.
-신청서 소속·연락처·동의·서명은 참가자가 작성. 이메일 접수는 수행하지 않았습니다.
+output/submission/김주형_분석보고서.pdf. 같은 폴더에 편집용 DOCX와 메일 초안.
+참가신청서(붙임1)는 참가자가 작성 완료했다고 알려주었습니다.
+작성된 신청서 파일·연락처·동의·서명은 이 작업에서 검토하지 않았습니다.
+이메일 접수는 수행하지 않았습니다.

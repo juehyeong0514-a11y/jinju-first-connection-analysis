@@ -1,4 +1,4 @@
-"""Five body pages plus references; complete separate evidence appendix (v5)."""
+"""Explanatory layout and separate evidence appendix (v5), not submission form."""
 import json
 from html import escape
 from pathlib import Path
@@ -195,10 +195,7 @@ else:
         add(title,ParagraphStyle('refhead',parent=small,textColor=TEAL,spaceAfter=1))
         add(escape(reason)+'<br/><link href="'+escape(url,quote=True)+'" color="#526B79">'+escape(url)+'</link>',mini)
 add('조회일 2026.10.08. 날짜별 배차·잔여석은 조회 당시 정보다. 원문·요청조건·출처는 로컬 재현 묶음에 보존하되 인증키·쿠키·CSRF가 든 페이지는 배제한다. 공개 GitHub는 코드와 집계표를 제공하며 전체 원문 캐시의 이용허락을 새로 부여하거나 재배포하는 저장소가 아니다.',small)
-build('jinju_first_connection_analysis.pdf','첫차의 연결이 서울 도착 기회를 바꾼다: 공개자료 검증판')
-if IDENTITY.get('participant'):
-    import shutil
-    shutil.copyfile(ROOT/'output/pdf/jinju_first_connection_analysis.pdf',ROOT/'output/submission'/f"{IDENTITY['participant']}_분석보고서.pdf")
+build('jinju_first_connection_explanatory.pdf','첫차의 연결이 서울 도착 기회를 바꾼다: 분석 설명용')
 
 story=[]
 head('A1','표본과 분석 재현 범위','검증 부록 / 본문 외')
