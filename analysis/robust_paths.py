@@ -58,7 +58,7 @@ def departures(base, direction, day, mode):
     raise ValueError('Unknown branch mode')
 
 @lru_cache(None)
-def pathways(day='1', mode='matched', policy='baseline', factor=1, walk_cap=20, gate=5, feeder_start=285):
+def pathways(day='1', mode='matched', policy='baseline', factor=1, walk_cap=20, gate=5, feeder_start=285, earliest_start=240):
     paths = []; missing = 0
     for p in ac.DIRECT:
         board = ac.offset(tuple(p['origin_time_key']) if p['origin_time_key'] else None)
@@ -72,7 +72,7 @@ def pathways(day='1', mode='matched', policy='baseline', factor=1, walk_cap=20, 
         if times and policy == 'full150_extra' and p['route_label'] == '150' and p['direction'] == '1': additions = [feeder_start]
         if times and policy == 'rail150_1_extra' and p['route_label'] == '150-1' and p['direction'] == '2': additions = [305]
         for d in sorted(set(times+additions)):
-            if 240+w+2 > d+board*factor: continue
+            if earliest_start+w+2 > d+board*factor: continue
             paths.append({'origin_id': p['origin_id'], 'hub': p['hub'], 'arrival': d+end*factor+gate,
                           'source': 'direct', 'routes': [p['route_label']], 'board_at': [d+board*factor],
                           'walk_minutes': w, 'boarding_stop': p['boarding_stop'], 'alighting_stop': p['alighting_stop'],
@@ -82,7 +82,7 @@ def pathways(day='1', mode='matched', policy='baseline', factor=1, walk_cap=20, 
             break
     for p in ac.SUGGESTED:
         legs = p['legs']; w = ac.walk(p['origin_id'], legs[0]['boarding_stop'])
-        clock = 240+w; total_w = w; boards = []; valid = True
+        clock = earliest_start+w; total_w = w; boards = []; valid = True
         for i, l in enumerate(legs):
             board = ac.offset(tuple(l['boarding_time_key']) if l['boarding_time_key'] else None)
             end = ac.offset(tuple(l['arrival_time_key']))
@@ -103,16 +103,16 @@ def pathways(day='1', mode='matched', policy='baseline', factor=1, walk_cap=20, 
     observations = json.loads((RAW/'map_observations.json').read_text())
     for r in observations['walking_to_innovation']:
         if r['minutes'] <= walk_cap:
-            paths.append({'origin_id':r['origin_id'], 'hub':'innovation', 'arrival':240+r['minutes']+gate,
+            paths.append({'origin_id':r['origin_id'], 'hub':'innovation', 'arrival':earliest_start+r['minutes']+gate,
                           'source':'map_walk', 'routes':['도보'], 'board_at':[], 'walk_minutes':r['minutes'], 'new_service':False})
     for r in strengthened.MAP['additional_walks']:
         if r['minutes'] <= walk_cap:
-            paths.append({'origin_id':r['origin_id'], 'hub':r['hub'], 'arrival':240+r['minutes']+gate,
+            paths.append({'origin_id':r['origin_id'], 'hub':r['hub'], 'arrival':earliest_start+r['minutes']+gate,
                           'source':'map_walk', 'routes':['도보'], 'board_at':[], 'walk_minutes':r['minutes'], 'new_service':False})
     if policy == 'feeder':
         for oid, stop, lag in [('49036','49035',0), ('49008','49007',6)]:
             w = ac.walk(oid,stop)
-            if w <= walk_cap and 240+w+2 <= feeder_start+lag*factor:
+            if w <= walk_cap and earliest_start+w+2 <= feeder_start+lag*factor:
                 paths.append({'origin_id':oid, 'hub':'innovation', 'arrival':feeder_start+15*factor+gate,
                               'source':'policy_feeder', 'routes':['추가 연계편'], 'board_at':[feeder_start+lag*factor],
                               'walk_minutes':w, 'boarding_stop':stop, 'new_service':True})

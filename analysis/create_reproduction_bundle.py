@@ -10,7 +10,7 @@ def include(pattern):files.update(p for p in ROOT.glob(pattern) if p.is_file())
 for pattern in ['analysis/*.py','RUN_ANALYSIS.txt','submission/*.json','output/pdf/jinju_first_connection*.pdf',
  'output/submission/*_분석보고서.pdf','output/submission/*.txt','output/submission/*.hwp',
  'outputs/all_stops.json','outputs/candidate_citybus_paths.json','outputs/suggested_transfer_paths.json',
- 'outputs/strengthened/*.json','outputs/strengthened/*.csv','outputs/robust/*.json','outputs/robust/*.csv',
+ 'outputs/strengthened/*.json','outputs/strengthened/*.csv','outputs/robust/*.json','outputs/robust/*.csv','outputs/decisions/*.json','outputs/decisions/*.csv','data/raw/strengthening/decisions/*.json',
  'data/raw/case_times/*.json','data/raw/citybus_timetables/*.json','data/raw/network/*.json','data/raw/transfer_candidates/*.json','data/raw/route_samples/*.json',
  'data/raw/tago/*.json','data/raw/jinju_bus_times*.json','data/raw/jinju_citybus_schedule.pdf','data/raw/map_observations.json',
  'data/raw/strengthening/*.json','data/raw/strengthening/*.xlsx','data/raw/strengthening/*.csv','data/raw/strengthening/citybus_schedule.txt','data/raw/strengthening/its/*.json',

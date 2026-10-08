@@ -1,22 +1,26 @@
-진주 새벽 첫 연결 분석 - 공개자료 검증판 v3 (2026-10-08)
+진주 새벽 첫 연결 분석 - 공개자료 검증판 v4 (2026-10-08)
 
 최신: 20개 대표 정류장, 5개 날짜, 강남/서울역/사당, 3개 지선배정 가정.
-본문5쪽+참고문헌1쪽, 검증부록9쪽. v1/v2 코드는 비교용 이전 버전입니다.
+본문5쪽+참고문헌1쪽, 검증부록12쪽. v1/v2 코드는 비교용 이전 버전입니다.
 
 1. 캐시로 최신 분석 재현 (Python 3.10 이상, API 키·네트워크·추가 패키지 불필요)
    python3 analysis/repair_transfer_aliases.py
    python3 analysis/analyze_robustness.py
    python3 analysis/check_robustness.py
+   python3 analysis/analyze_decisions.py
+   python3 analysis/check_decisions.py
    결과: outputs/robust/analysis.json, calendar_destination_comparison.csv,
          alias_audit.json, recovered_transfer_paths.json, validation.json
+         outputs/decisions/analysis.json, validation.json, 목표시각/출발/지연/택시 CSV 5개
    180개 시나리오·300개 지점/날짜/목적지 비교·8,100개 비용 조합.
+   v4: 목표시각225행·출발조건540행·지연비교450행·택시360행 추가.
    시간순서·전철 열차번호·지선 경계·코드대응·비용 등 내부 논리 검사.
    검사 통과는 실제 운행 성공·실측 시간·신규 수요·계약 견적을 입증하지 않습니다.
 
 2. PDF 재생성 (reportlab 필요)
    python3 analysis/build_robust_report.py
    output/pdf/jinju_first_connection_analysis.pdf (본문5쪽+참고문헌)
-   output/pdf/jinju_first_connection_evidence.pdf (별도 검증부록9쪽)
+   output/pdf/jinju_first_connection_evidence.pdf (별도 검증부록12쪽)
    macOS AppleGothic 사용. 다른 OS는 KR_FONT 환경변수에 한글 TTF 경로 지정.
    AppleGothic 글꼴 파일은 묶음에 포함하지 않습니다.
    예전 build_strengthened_report.py는 이전 버전으로 현재 파일을 덮어쓰므로
@@ -35,6 +39,18 @@
    자동 미래 TAGO 빈 응답을 무운행으로 해석하지 않습니다.
 
 4. 개선안과 해석의 중요 조건
+ - v4는 첫차 연결과 지역 부담을 함께 비교. 기존 예약택시도 같은 첫차 가능.
+   지도지점 차량 확보·대기0·주행5분이면 평일05:10출발→강남09:27.
+   연계보다32~34분 늦게 출발. 새벽 배차·호출/예약료·실제 견적은 미검증.
+ - 강남09:00 표본 기회4→4, 09:30 6→8. 20곳은 주민 대표 표본이 아님.
+   05:00 이후 출발 가능한 핵심 이용자는 추가 연계편을 놓침.
+ - 서울 장거리버스 도착+10분 또는 역진입 보행+10분이면 연계09:37.
+   93분 앞당김과09:30 정시 목표를 구분. 모든 알려진 버스/철도/전철 재선택.
+   0/10/20/30/60분 도로지연은 가상값이며 정시확률·실측 지연 아님.
+ - 기존 하모콜버스 공식 게시 안내는 외곽형 동부5면06~22시, 관광형09~22시.
+   첫 서울행05시대와 구별. 기존 차량 사용권·사업 승인을 확인한 것이 아님.
+ - 4주 예약 시범운영은 제안이며 실행하지 않음. 표/좌석/차량/출발 가능시각을
+   먼저 확인하고 일행별 동승과 회송 포함 견적에서 낮은 총비용 수단 선택.
  - 04:00 이후 출발, 외부 보행 합계 최대20분, 지역 승차 여유2분.
  - 승강장 이동5분+장거리 승차 여유10분, 서울 보행/환승은 계획 가정.
  - 기존 50방향 제외 규칙을 폐기. 각 지선 첫차는 상세 노선번호 묶음에 존재.
@@ -61,6 +77,9 @@
    실제 계약·면허·보험·새벽 운행·회송 원가는 확인 전 미확정.
 
 5. 주요 근거 파일
+ outputs/decisions/analysis.json : 목표시각·늦은 출발·지연·택시·정책 비교
+ outputs/decisions/validation.json : 기본 호환성·단조성·실패 반례 검증
+ data/raw/strengthening/decisions/primary_context.json : DRT·OECD/ITF 판독 근거
  outputs/robust/analysis.json : 날짜·목적지·모드·경로·비용·주택·인구·여정
  outputs/robust/alias_audit.json : 대응좌표·정류장 순서·남는 경로 목록
  outputs/robust/validation.json : 내부 논리 검증

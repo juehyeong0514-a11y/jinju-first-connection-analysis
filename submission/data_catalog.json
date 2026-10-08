@@ -94,5 +94,21 @@
     "platform": "진주시 홈페이지",
     "url": "https://www.jinju.go.kr/00135/01114/01906.web",
     "selection_reason": "행정동 규모와 단지 구분"
+  },
+  {
+    "reference": "14",
+    "data_name": "하모콜버스 공식 이용안내",
+    "provider": "경상남도 진주시",
+    "platform": "진주 BIS",
+    "url": "https://bis.jinju.go.kr/addInfo/addInfoMaas.do",
+    "selection_reason": "기존 DRT 지역·시간과 비교"
+  },
+  {
+    "reference": "15",
+    "data_name": "접근성 지표와 교통계획(2019)",
+    "provider": "OECD/ITF",
+    "platform": "ITF 공식 출판물",
+    "url": "https://itf-oecd.org/transport-planning-investment-accessibility-indicators",
+    "selection_reason": "사용자 도착 기회 지표 근거"
   }
 ]

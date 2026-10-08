@@ -1,0 +1,31 @@
+{
+  "passed": 11356,
+  "groups": {
+    "v3 default compatibility": 1800,
+    "regional boarding chronology": 1800,
+    "zero shock identity": 1800,
+    "final arrival chronology": 1800,
+    "deadline membership": 450,
+    "opportunity bounds and service preservation": 225,
+    "opportunity increment": 225,
+    "newly enabled identifiers": 225,
+    "earliest_start monotonicity": 450,
+    "coach_delay monotonicity": 360,
+    "delay comparison same assumptions": 450,
+    "09:30 deadline with exact seconds": 450,
+    "deadline slack": 450,
+    "added feeder preserves alternatives": 450,
+    "conditional taxi latest pickup": 360,
+    "journey arithmetic": 8,
+    "cost scope": 8,
+    "weekday core arrival": 1,
+    "10 minute shock misses 09:30": 1,
+    "reoptimization preserves rail fallback": 1,
+    "05:00 availability misses added first feeder": 2,
+    "conditional taxi can use same coach": 2,
+    "taxi path actually selected": 2,
+    "station entry walking monotonicity": 36
+  },
+  "scope": "계산 일관성·반례 검증. 실측 신뢰도·새벽 배차·정시확률·우승 가능성을 검증하지 않음.",
+  "full_cache_reproduction": "Source route joins require the separate local cache bundle; published CSV review is distinct."
+}

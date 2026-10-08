@@ -1,0 +1,451 @@
+﻿date,target,branch_mode,coach_delay,entry_extra,on_time_0930,slack_0930,origin_id,origin,baseline,feeder,baseline_hhmm,feeder_hhmm,advance,baseline_hub,feeder_hub,baseline_service,feeder_service
+2026-10-08,강남,strict,0,0,True,3.0,49008,LH10단지,660.0,567.0,11:00,09:27,93.0,innovation,innovation,우등,우등
+2026-10-08,강남,strict,0,0,True,3.0,49036,풀에버정문,660.0,567.0,11:00,09:27,93.0,innovation,innovation,우등,우등
+2026-10-08,강남,strict,10,0,False,-6.5,49008,LH10단지,672.0,576.5,11:12,09:37,95.5,innovation,innovation,우등,우등
+2026-10-08,강남,strict,10,0,False,-6.5,49036,풀에버정문,672.0,576.5,11:12,09:37,95.5,innovation,innovation,우등,우등
+2026-10-08,강남,strict,20,0,False,-18.0,49008,LH10단지,678.0,588.0,11:18,09:48,90.0,innovation,innovation,우등,우등
+2026-10-08,강남,strict,20,0,False,-18.0,49036,풀에버정문,678.0,588.0,11:18,09:48,90.0,innovation,innovation,우등,우등
+2026-10-08,강남,strict,30,0,False,-25.0,49008,LH10단지,685.0,595.0,11:25,09:55,90.0,rail,innovation,KTX-산천 00382,우등
+2026-10-08,강남,strict,30,0,False,-25.0,49036,풀에버정문,685.0,595.0,11:25,09:55,90.0,rail,innovation,KTX-산천 00382,우등
+2026-10-08,강남,strict,60,0,False,-60.5,49008,LH10단지,685.0,630.5,11:25,10:31,54.5,rail,innovation,KTX-산천 00382,우등
+2026-10-08,강남,strict,60,0,False,-60.5,49036,풀에버정문,685.0,630.5,11:25,10:31,54.5,rail,innovation,KTX-산천 00382,우등
+2026-10-08,강남,matched,0,0,True,3.0,49008,LH10단지,660.0,567.0,11:00,09:27,93.0,innovation,innovation,우등,우등
+2026-10-08,강남,matched,0,0,True,3.0,49036,풀에버정문,660.0,567.0,11:00,09:27,93.0,innovation,innovation,우등,우등
+2026-10-08,강남,matched,10,0,False,-6.5,49008,LH10단지,672.0,576.5,11:12,09:37,95.5,innovation,innovation,우등,우등
+2026-10-08,강남,matched,10,0,False,-6.5,49036,풀에버정문,672.0,576.5,11:12,09:37,95.5,innovation,innovation,우등,우등
+2026-10-08,강남,matched,20,0,False,-18.0,49008,LH10단지,678.0,588.0,11:18,09:48,90.0,innovation,innovation,우등,우등
+2026-10-08,강남,matched,20,0,False,-18.0,49036,풀에버정문,678.0,588.0,11:18,09:48,90.0,innovation,innovation,우등,우등
+2026-10-08,강남,matched,30,0,False,-25.0,49008,LH10단지,685.0,595.0,11:25,09:55,90.0,rail,innovation,KTX-산천 00382,우등
+2026-10-08,강남,matched,30,0,False,-25.0,49036,풀에버정문,685.0,595.0,11:25,09:55,90.0,rail,innovation,KTX-산천 00382,우등
+2026-10-08,강남,matched,60,0,False,-60.5,49008,LH10단지,685.0,630.5,11:25,10:31,54.5,rail,innovation,KTX-산천 00382,우등
+2026-10-08,강남,matched,60,0,False,-60.5,49036,풀에버정문,685.0,630.5,11:25,10:31,54.5,rail,innovation,KTX-산천 00382,우등
+2026-10-08,강남,optimistic,0,0,True,3.0,49008,LH10단지,660.0,567.0,11:00,09:27,93.0,innovation,innovation,우등,우등
+2026-10-08,강남,optimistic,0,0,True,3.0,49036,풀에버정문,660.0,567.0,11:00,09:27,93.0,innovation,innovation,우등,우등
+2026-10-08,강남,optimistic,10,0,False,-6.5,49008,LH10단지,672.0,576.5,11:12,09:37,95.5,innovation,innovation,우등,우등
+2026-10-08,강남,optimistic,10,0,False,-6.5,49036,풀에버정문,672.0,576.5,11:12,09:37,95.5,innovation,innovation,우등,우등
+2026-10-08,강남,optimistic,20,0,False,-18.0,49008,LH10단지,678.0,588.0,11:18,09:48,90.0,innovation,innovation,우등,우등
+2026-10-08,강남,optimistic,20,0,False,-18.0,49036,풀에버정문,678.0,588.0,11:18,09:48,90.0,innovation,innovation,우등,우등
+2026-10-08,강남,optimistic,30,0,False,-25.0,49008,LH10단지,685.0,595.0,11:25,09:55,90.0,rail,innovation,KTX-산천 00382,우등
+2026-10-08,강남,optimistic,30,0,False,-25.0,49036,풀에버정문,685.0,595.0,11:25,09:55,90.0,rail,innovation,KTX-산천 00382,우등
+2026-10-08,강남,optimistic,60,0,False,-60.5,49008,LH10단지,685.0,630.5,11:25,10:31,54.5,rail,innovation,KTX-산천 00382,우등
+2026-10-08,강남,optimistic,60,0,False,-60.5,49036,풀에버정문,685.0,630.5,11:25,10:31,54.5,rail,innovation,KTX-산천 00382,우등
+2026-10-08,서울역,strict,0,0,False,-14.0,49008,LH10단지,680.5,584.0,11:21,09:44,96.5,innovation,innovation,우등,우등
+2026-10-08,서울역,strict,0,0,False,-14.0,49036,풀에버정문,680.5,584.0,11:21,09:44,96.5,innovation,innovation,우등,우등
+2026-10-08,서울역,strict,10,0,False,-23.5,49008,LH10단지,685.5,593.5,11:26,09:54,92.0,innovation,innovation,우등,우등
+2026-10-08,서울역,strict,10,0,False,-23.5,49036,풀에버정문,685.5,593.5,11:26,09:54,92.0,innovation,innovation,우등,우등
+2026-10-08,서울역,strict,20,0,False,-38.0,49008,LH10단지,696.5,608.0,11:37,10:08,88.5,innovation,innovation,우등,우등
+2026-10-08,서울역,strict,20,0,False,-38.0,49036,풀에버정문,696.5,608.0,11:37,10:08,88.5,innovation,innovation,우등,우등
+2026-10-08,서울역,strict,30,0,False,-42.5,49008,LH10단지,708.5,612.5,11:49,10:13,96.0,innovation,innovation,우등,우등
+2026-10-08,서울역,strict,30,0,False,-42.5,49036,풀에버정문,708.5,612.5,11:49,10:13,96.0,innovation,innovation,우등,우등
+2026-10-08,서울역,strict,60,0,False,-73.5,49008,LH10단지,708.5,643.5,11:49,10:44,65.0,rail,innovation,KTX-산천 00382,우등
+2026-10-08,서울역,strict,60,0,False,-73.5,49036,풀에버정문,708.5,643.5,11:49,10:44,65.0,rail,innovation,KTX-산천 00382,우등
+2026-10-08,서울역,matched,0,0,False,-14.0,49008,LH10단지,680.5,584.0,11:21,09:44,96.5,innovation,innovation,우등,우등
+2026-10-08,서울역,matched,0,0,False,-14.0,49036,풀에버정문,680.5,584.0,11:21,09:44,96.5,innovation,innovation,우등,우등
+2026-10-08,서울역,matched,10,0,False,-23.5,49008,LH10단지,685.5,593.5,11:26,09:54,92.0,innovation,innovation,우등,우등
+2026-10-08,서울역,matched,10,0,False,-23.5,49036,풀에버정문,685.5,593.5,11:26,09:54,92.0,innovation,innovation,우등,우등
+2026-10-08,서울역,matched,20,0,False,-38.0,49008,LH10단지,696.5,608.0,11:37,10:08,88.5,innovation,innovation,우등,우등
+2026-10-08,서울역,matched,20,0,False,-38.0,49036,풀에버정문,696.5,608.0,11:37,10:08,88.5,innovation,innovation,우등,우등
+2026-10-08,서울역,matched,30,0,False,-42.5,49008,LH10단지,708.5,612.5,11:49,10:13,96.0,innovation,innovation,우등,우등
+2026-10-08,서울역,matched,30,0,False,-42.5,49036,풀에버정문,708.5,612.5,11:49,10:13,96.0,innovation,innovation,우등,우등
+2026-10-08,서울역,matched,60,0,False,-73.5,49008,LH10단지,708.5,643.5,11:49,10:44,65.0,rail,innovation,KTX-산천 00382,우등
+2026-10-08,서울역,matched,60,0,False,-73.5,49036,풀에버정문,708.5,643.5,11:49,10:44,65.0,rail,innovation,KTX-산천 00382,우등
+2026-10-08,서울역,optimistic,0,0,False,-14.0,49008,LH10단지,680.5,584.0,11:21,09:44,96.5,innovation,innovation,우등,우등
+2026-10-08,서울역,optimistic,0,0,False,-14.0,49036,풀에버정문,680.5,584.0,11:21,09:44,96.5,innovation,innovation,우등,우등
+2026-10-08,서울역,optimistic,10,0,False,-23.5,49008,LH10단지,685.5,593.5,11:26,09:54,92.0,innovation,innovation,우등,우등
+2026-10-08,서울역,optimistic,10,0,False,-23.5,49036,풀에버정문,685.5,593.5,11:26,09:54,92.0,innovation,innovation,우등,우등
+2026-10-08,서울역,optimistic,20,0,False,-38.0,49008,LH10단지,696.5,608.0,11:37,10:08,88.5,innovation,innovation,우등,우등
+2026-10-08,서울역,optimistic,20,0,False,-38.0,49036,풀에버정문,696.5,608.0,11:37,10:08,88.5,innovation,innovation,우등,우등
+2026-10-08,서울역,optimistic,30,0,False,-42.5,49008,LH10단지,708.5,612.5,11:49,10:13,96.0,innovation,innovation,우등,우등
+2026-10-08,서울역,optimistic,30,0,False,-42.5,49036,풀에버정문,708.5,612.5,11:49,10:13,96.0,innovation,innovation,우등,우등
+2026-10-08,서울역,optimistic,60,0,False,-73.5,49008,LH10단지,708.5,643.5,11:49,10:44,65.0,rail,innovation,KTX-산천 00382,우등
+2026-10-08,서울역,optimistic,60,0,False,-73.5,49036,풀에버정문,708.5,643.5,11:49,10:44,65.0,rail,innovation,KTX-산천 00382,우등
+2026-10-08,사당,strict,0,0,False,-3.0,49008,LH10단지,664.0,573.0,11:04,09:33,91.0,innovation,innovation,우등,우등
+2026-10-08,사당,strict,0,0,False,-3.0,49036,풀에버정문,664.0,573.0,11:04,09:33,91.0,innovation,innovation,우등,우등
+2026-10-08,사당,strict,10,0,False,-9.5,49008,LH10단지,676.5,579.5,11:17,09:40,97.0,innovation,innovation,우등,우등
+2026-10-08,사당,strict,10,0,False,-9.5,49036,풀에버정문,676.5,579.5,11:17,09:40,97.0,innovation,innovation,우등,우등
+2026-10-08,사당,strict,20,0,False,-22.5,49008,LH10단지,682.5,592.5,11:23,09:53,90.0,innovation,innovation,우등,우등
+2026-10-08,사당,strict,20,0,False,-22.5,49036,풀에버정문,682.5,592.5,11:23,09:53,90.0,innovation,innovation,우등,우등
+2026-10-08,사당,strict,30,0,False,-31.0,49008,LH10단지,688.5,601.0,11:29,10:01,87.5,rail,innovation,KTX-산천 00382,우등
+2026-10-08,사당,strict,30,0,False,-31.0,49036,풀에버정문,688.5,601.0,11:29,10:01,87.5,rail,innovation,KTX-산천 00382,우등
+2026-10-08,사당,strict,60,0,False,-65.5,49008,LH10단지,688.5,635.5,11:29,10:36,53.0,rail,innovation,KTX-산천 00382,우등
+2026-10-08,사당,strict,60,0,False,-65.5,49036,풀에버정문,688.5,635.5,11:29,10:36,53.0,rail,innovation,KTX-산천 00382,우등
+2026-10-08,사당,matched,0,0,False,-3.0,49008,LH10단지,664.0,573.0,11:04,09:33,91.0,innovation,innovation,우등,우등
+2026-10-08,사당,matched,0,0,False,-3.0,49036,풀에버정문,664.0,573.0,11:04,09:33,91.0,innovation,innovation,우등,우등
+2026-10-08,사당,matched,10,0,False,-9.5,49008,LH10단지,676.5,579.5,11:17,09:40,97.0,innovation,innovation,우등,우등
+2026-10-08,사당,matched,10,0,False,-9.5,49036,풀에버정문,676.5,579.5,11:17,09:40,97.0,innovation,innovation,우등,우등
+2026-10-08,사당,matched,20,0,False,-22.5,49008,LH10단지,682.5,592.5,11:23,09:53,90.0,innovation,innovation,우등,우등
+2026-10-08,사당,matched,20,0,False,-22.5,49036,풀에버정문,682.5,592.5,11:23,09:53,90.0,innovation,innovation,우등,우등
+2026-10-08,사당,matched,30,0,False,-31.0,49008,LH10단지,688.5,601.0,11:29,10:01,87.5,rail,innovation,KTX-산천 00382,우등
+2026-10-08,사당,matched,30,0,False,-31.0,49036,풀에버정문,688.5,601.0,11:29,10:01,87.5,rail,innovation,KTX-산천 00382,우등
+2026-10-08,사당,matched,60,0,False,-65.5,49008,LH10단지,688.5,635.5,11:29,10:36,53.0,rail,innovation,KTX-산천 00382,우등
+2026-10-08,사당,matched,60,0,False,-65.5,49036,풀에버정문,688.5,635.5,11:29,10:36,53.0,rail,innovation,KTX-산천 00382,우등
+2026-10-08,사당,optimistic,0,0,False,-3.0,49008,LH10단지,664.0,573.0,11:04,09:33,91.0,innovation,innovation,우등,우등
+2026-10-08,사당,optimistic,0,0,False,-3.0,49036,풀에버정문,664.0,573.0,11:04,09:33,91.0,innovation,innovation,우등,우등
+2026-10-08,사당,optimistic,10,0,False,-9.5,49008,LH10단지,676.5,579.5,11:17,09:40,97.0,innovation,innovation,우등,우등
+2026-10-08,사당,optimistic,10,0,False,-9.5,49036,풀에버정문,676.5,579.5,11:17,09:40,97.0,innovation,innovation,우등,우등
+2026-10-08,사당,optimistic,20,0,False,-22.5,49008,LH10단지,682.5,592.5,11:23,09:53,90.0,innovation,innovation,우등,우등
+2026-10-08,사당,optimistic,20,0,False,-22.5,49036,풀에버정문,682.5,592.5,11:23,09:53,90.0,innovation,innovation,우등,우등
+2026-10-08,사당,optimistic,30,0,False,-31.0,49008,LH10단지,688.5,601.0,11:29,10:01,87.5,rail,innovation,KTX-산천 00382,우등
+2026-10-08,사당,optimistic,30,0,False,-31.0,49036,풀에버정문,688.5,601.0,11:29,10:01,87.5,rail,innovation,KTX-산천 00382,우등
+2026-10-08,사당,optimistic,60,0,False,-65.5,49008,LH10단지,688.5,635.5,11:29,10:36,53.0,rail,innovation,KTX-산천 00382,우등
+2026-10-08,사당,optimistic,60,0,False,-65.5,49036,풀에버정문,688.5,635.5,11:29,10:36,53.0,rail,innovation,KTX-산천 00382,우등
+2026-10-13,강남,strict,0,0,True,3.0,49008,LH10단지,660.0,567.0,11:00,09:27,93.0,innovation,innovation,KOBUS 공시,KOBUS 공시
+2026-10-13,강남,strict,0,0,True,3.0,49036,풀에버정문,660.0,567.0,11:00,09:27,93.0,innovation,innovation,KOBUS 공시,KOBUS 공시
+2026-10-13,강남,strict,10,0,False,-6.5,49008,LH10단지,672.0,576.5,11:12,09:37,95.5,innovation,innovation,KOBUS 공시,KOBUS 공시
+2026-10-13,강남,strict,10,0,False,-6.5,49036,풀에버정문,672.0,576.5,11:12,09:37,95.5,innovation,innovation,KOBUS 공시,KOBUS 공시
+2026-10-13,강남,strict,20,0,False,-18.0,49008,LH10단지,678.0,588.0,11:18,09:48,90.0,innovation,innovation,KOBUS 공시,KOBUS 공시
+2026-10-13,강남,strict,20,0,False,-18.0,49036,풀에버정문,678.0,588.0,11:18,09:48,90.0,innovation,innovation,KOBUS 공시,KOBUS 공시
+2026-10-13,강남,strict,30,0,False,-25.0,49008,LH10단지,685.0,595.0,11:25,09:55,90.0,rail,innovation,KTX-산천 382,KOBUS 공시
+2026-10-13,강남,strict,30,0,False,-25.0,49036,풀에버정문,685.0,595.0,11:25,09:55,90.0,rail,innovation,KTX-산천 382,KOBUS 공시
+2026-10-13,강남,strict,60,0,False,-60.5,49008,LH10단지,685.0,630.5,11:25,10:31,54.5,rail,innovation,KTX-산천 382,KOBUS 공시
+2026-10-13,강남,strict,60,0,False,-60.5,49036,풀에버정문,685.0,630.5,11:25,10:31,54.5,rail,innovation,KTX-산천 382,KOBUS 공시
+2026-10-13,강남,matched,0,0,True,3.0,49008,LH10단지,660.0,567.0,11:00,09:27,93.0,innovation,innovation,KOBUS 공시,KOBUS 공시
+2026-10-13,강남,matched,0,0,True,3.0,49036,풀에버정문,660.0,567.0,11:00,09:27,93.0,innovation,innovation,KOBUS 공시,KOBUS 공시
+2026-10-13,강남,matched,10,0,False,-6.5,49008,LH10단지,672.0,576.5,11:12,09:37,95.5,innovation,innovation,KOBUS 공시,KOBUS 공시
+2026-10-13,강남,matched,10,0,False,-6.5,49036,풀에버정문,672.0,576.5,11:12,09:37,95.5,innovation,innovation,KOBUS 공시,KOBUS 공시
+2026-10-13,강남,matched,20,0,False,-18.0,49008,LH10단지,678.0,588.0,11:18,09:48,90.0,innovation,innovation,KOBUS 공시,KOBUS 공시
+2026-10-13,강남,matched,20,0,False,-18.0,49036,풀에버정문,678.0,588.0,11:18,09:48,90.0,innovation,innovation,KOBUS 공시,KOBUS 공시
+2026-10-13,강남,matched,30,0,False,-25.0,49008,LH10단지,685.0,595.0,11:25,09:55,90.0,rail,innovation,KTX-산천 382,KOBUS 공시
+2026-10-13,강남,matched,30,0,False,-25.0,49036,풀에버정문,685.0,595.0,11:25,09:55,90.0,rail,innovation,KTX-산천 382,KOBUS 공시
+2026-10-13,강남,matched,60,0,False,-60.5,49008,LH10단지,685.0,630.5,11:25,10:31,54.5,rail,innovation,KTX-산천 382,KOBUS 공시
+2026-10-13,강남,matched,60,0,False,-60.5,49036,풀에버정문,685.0,630.5,11:25,10:31,54.5,rail,innovation,KTX-산천 382,KOBUS 공시
+2026-10-13,강남,optimistic,0,0,True,3.0,49008,LH10단지,660.0,567.0,11:00,09:27,93.0,innovation,innovation,KOBUS 공시,KOBUS 공시
+2026-10-13,강남,optimistic,0,0,True,3.0,49036,풀에버정문,660.0,567.0,11:00,09:27,93.0,innovation,innovation,KOBUS 공시,KOBUS 공시
+2026-10-13,강남,optimistic,10,0,False,-6.5,49008,LH10단지,672.0,576.5,11:12,09:37,95.5,innovation,innovation,KOBUS 공시,KOBUS 공시
+2026-10-13,강남,optimistic,10,0,False,-6.5,49036,풀에버정문,672.0,576.5,11:12,09:37,95.5,innovation,innovation,KOBUS 공시,KOBUS 공시
+2026-10-13,강남,optimistic,20,0,False,-18.0,49008,LH10단지,678.0,588.0,11:18,09:48,90.0,innovation,innovation,KOBUS 공시,KOBUS 공시
+2026-10-13,강남,optimistic,20,0,False,-18.0,49036,풀에버정문,678.0,588.0,11:18,09:48,90.0,innovation,innovation,KOBUS 공시,KOBUS 공시
+2026-10-13,강남,optimistic,30,0,False,-25.0,49008,LH10단지,685.0,595.0,11:25,09:55,90.0,rail,innovation,KTX-산천 382,KOBUS 공시
+2026-10-13,강남,optimistic,30,0,False,-25.0,49036,풀에버정문,685.0,595.0,11:25,09:55,90.0,rail,innovation,KTX-산천 382,KOBUS 공시
+2026-10-13,강남,optimistic,60,0,False,-60.5,49008,LH10단지,685.0,630.5,11:25,10:31,54.5,rail,innovation,KTX-산천 382,KOBUS 공시
+2026-10-13,강남,optimistic,60,0,False,-60.5,49036,풀에버정문,685.0,630.5,11:25,10:31,54.5,rail,innovation,KTX-산천 382,KOBUS 공시
+2026-10-13,서울역,strict,0,0,False,-14.0,49008,LH10단지,680.5,584.0,11:21,09:44,96.5,innovation,innovation,KOBUS 공시,KOBUS 공시
+2026-10-13,서울역,strict,0,0,False,-14.0,49036,풀에버정문,680.5,584.0,11:21,09:44,96.5,innovation,innovation,KOBUS 공시,KOBUS 공시
+2026-10-13,서울역,strict,10,0,False,-23.5,49008,LH10단지,685.5,593.5,11:26,09:54,92.0,innovation,innovation,KOBUS 공시,KOBUS 공시
+2026-10-13,서울역,strict,10,0,False,-23.5,49036,풀에버정문,685.5,593.5,11:26,09:54,92.0,innovation,innovation,KOBUS 공시,KOBUS 공시
+2026-10-13,서울역,strict,20,0,False,-38.0,49008,LH10단지,696.5,608.0,11:37,10:08,88.5,innovation,innovation,KOBUS 공시,KOBUS 공시
+2026-10-13,서울역,strict,20,0,False,-38.0,49036,풀에버정문,696.5,608.0,11:37,10:08,88.5,innovation,innovation,KOBUS 공시,KOBUS 공시
+2026-10-13,서울역,strict,30,0,False,-42.5,49008,LH10단지,708.5,612.5,11:49,10:13,96.0,innovation,innovation,KOBUS 공시,KOBUS 공시
+2026-10-13,서울역,strict,30,0,False,-42.5,49036,풀에버정문,708.5,612.5,11:49,10:13,96.0,innovation,innovation,KOBUS 공시,KOBUS 공시
+2026-10-13,서울역,strict,60,0,False,-73.5,49008,LH10단지,708.5,643.5,11:49,10:44,65.0,rail,innovation,KTX-산천 382,KOBUS 공시
+2026-10-13,서울역,strict,60,0,False,-73.5,49036,풀에버정문,708.5,643.5,11:49,10:44,65.0,rail,innovation,KTX-산천 382,KOBUS 공시
+2026-10-13,서울역,matched,0,0,False,-14.0,49008,LH10단지,680.5,584.0,11:21,09:44,96.5,innovation,innovation,KOBUS 공시,KOBUS 공시
+2026-10-13,서울역,matched,0,0,False,-14.0,49036,풀에버정문,680.5,584.0,11:21,09:44,96.5,innovation,innovation,KOBUS 공시,KOBUS 공시
+2026-10-13,서울역,matched,10,0,False,-23.5,49008,LH10단지,685.5,593.5,11:26,09:54,92.0,innovation,innovation,KOBUS 공시,KOBUS 공시
+2026-10-13,서울역,matched,10,0,False,-23.5,49036,풀에버정문,685.5,593.5,11:26,09:54,92.0,innovation,innovation,KOBUS 공시,KOBUS 공시
+2026-10-13,서울역,matched,20,0,False,-38.0,49008,LH10단지,696.5,608.0,11:37,10:08,88.5,innovation,innovation,KOBUS 공시,KOBUS 공시
+2026-10-13,서울역,matched,20,0,False,-38.0,49036,풀에버정문,696.5,608.0,11:37,10:08,88.5,innovation,innovation,KOBUS 공시,KOBUS 공시
+2026-10-13,서울역,matched,30,0,False,-42.5,49008,LH10단지,708.5,612.5,11:49,10:13,96.0,innovation,innovation,KOBUS 공시,KOBUS 공시
+2026-10-13,서울역,matched,30,0,False,-42.5,49036,풀에버정문,708.5,612.5,11:49,10:13,96.0,innovation,innovation,KOBUS 공시,KOBUS 공시
+2026-10-13,서울역,matched,60,0,False,-73.5,49008,LH10단지,708.5,643.5,11:49,10:44,65.0,rail,innovation,KTX-산천 382,KOBUS 공시
+2026-10-13,서울역,matched,60,0,False,-73.5,49036,풀에버정문,708.5,643.5,11:49,10:44,65.0,rail,innovation,KTX-산천 382,KOBUS 공시
+2026-10-13,서울역,optimistic,0,0,False,-14.0,49008,LH10단지,680.5,584.0,11:21,09:44,96.5,innovation,innovation,KOBUS 공시,KOBUS 공시
+2026-10-13,서울역,optimistic,0,0,False,-14.0,49036,풀에버정문,680.5,584.0,11:21,09:44,96.5,innovation,innovation,KOBUS 공시,KOBUS 공시
+2026-10-13,서울역,optimistic,10,0,False,-23.5,49008,LH10단지,685.5,593.5,11:26,09:54,92.0,innovation,innovation,KOBUS 공시,KOBUS 공시
+2026-10-13,서울역,optimistic,10,0,False,-23.5,49036,풀에버정문,685.5,593.5,11:26,09:54,92.0,innovation,innovation,KOBUS 공시,KOBUS 공시
+2026-10-13,서울역,optimistic,20,0,False,-38.0,49008,LH10단지,696.5,608.0,11:37,10:08,88.5,innovation,innovation,KOBUS 공시,KOBUS 공시
+2026-10-13,서울역,optimistic,20,0,False,-38.0,49036,풀에버정문,696.5,608.0,11:37,10:08,88.5,innovation,innovation,KOBUS 공시,KOBUS 공시
+2026-10-13,서울역,optimistic,30,0,False,-42.5,49008,LH10단지,708.5,612.5,11:49,10:13,96.0,innovation,innovation,KOBUS 공시,KOBUS 공시
+2026-10-13,서울역,optimistic,30,0,False,-42.5,49036,풀에버정문,708.5,612.5,11:49,10:13,96.0,innovation,innovation,KOBUS 공시,KOBUS 공시
+2026-10-13,서울역,optimistic,60,0,False,-73.5,49008,LH10단지,708.5,643.5,11:49,10:44,65.0,rail,innovation,KTX-산천 382,KOBUS 공시
+2026-10-13,서울역,optimistic,60,0,False,-73.5,49036,풀에버정문,708.5,643.5,11:49,10:44,65.0,rail,innovation,KTX-산천 382,KOBUS 공시
+2026-10-13,사당,strict,0,0,False,-3.0,49008,LH10단지,664.0,573.0,11:04,09:33,91.0,innovation,innovation,KOBUS 공시,KOBUS 공시
+2026-10-13,사당,strict,0,0,False,-3.0,49036,풀에버정문,664.0,573.0,11:04,09:33,91.0,innovation,innovation,KOBUS 공시,KOBUS 공시
+2026-10-13,사당,strict,10,0,False,-9.5,49008,LH10단지,676.5,579.5,11:17,09:40,97.0,innovation,innovation,KOBUS 공시,KOBUS 공시
+2026-10-13,사당,strict,10,0,False,-9.5,49036,풀에버정문,676.5,579.5,11:17,09:40,97.0,innovation,innovation,KOBUS 공시,KOBUS 공시
+2026-10-13,사당,strict,20,0,False,-22.5,49008,LH10단지,682.5,592.5,11:23,09:53,90.0,innovation,innovation,KOBUS 공시,KOBUS 공시
+2026-10-13,사당,strict,20,0,False,-22.5,49036,풀에버정문,682.5,592.5,11:23,09:53,90.0,innovation,innovation,KOBUS 공시,KOBUS 공시
+2026-10-13,사당,strict,30,0,False,-31.0,49008,LH10단지,688.5,601.0,11:29,10:01,87.5,rail,innovation,KTX-산천 382,KOBUS 공시
+2026-10-13,사당,strict,30,0,False,-31.0,49036,풀에버정문,688.5,601.0,11:29,10:01,87.5,rail,innovation,KTX-산천 382,KOBUS 공시
+2026-10-13,사당,strict,60,0,False,-65.5,49008,LH10단지,688.5,635.5,11:29,10:36,53.0,rail,innovation,KTX-산천 382,KOBUS 공시
+2026-10-13,사당,strict,60,0,False,-65.5,49036,풀에버정문,688.5,635.5,11:29,10:36,53.0,rail,innovation,KTX-산천 382,KOBUS 공시
+2026-10-13,사당,matched,0,0,False,-3.0,49008,LH10단지,664.0,573.0,11:04,09:33,91.0,innovation,innovation,KOBUS 공시,KOBUS 공시
+2026-10-13,사당,matched,0,0,False,-3.0,49036,풀에버정문,664.0,573.0,11:04,09:33,91.0,innovation,innovation,KOBUS 공시,KOBUS 공시
+2026-10-13,사당,matched,10,0,False,-9.5,49008,LH10단지,676.5,579.5,11:17,09:40,97.0,innovation,innovation,KOBUS 공시,KOBUS 공시
+2026-10-13,사당,matched,10,0,False,-9.5,49036,풀에버정문,676.5,579.5,11:17,09:40,97.0,innovation,innovation,KOBUS 공시,KOBUS 공시
+2026-10-13,사당,matched,20,0,False,-22.5,49008,LH10단지,682.5,592.5,11:23,09:53,90.0,innovation,innovation,KOBUS 공시,KOBUS 공시
+2026-10-13,사당,matched,20,0,False,-22.5,49036,풀에버정문,682.5,592.5,11:23,09:53,90.0,innovation,innovation,KOBUS 공시,KOBUS 공시
+2026-10-13,사당,matched,30,0,False,-31.0,49008,LH10단지,688.5,601.0,11:29,10:01,87.5,rail,innovation,KTX-산천 382,KOBUS 공시
+2026-10-13,사당,matched,30,0,False,-31.0,49036,풀에버정문,688.5,601.0,11:29,10:01,87.5,rail,innovation,KTX-산천 382,KOBUS 공시
+2026-10-13,사당,matched,60,0,False,-65.5,49008,LH10단지,688.5,635.5,11:29,10:36,53.0,rail,innovation,KTX-산천 382,KOBUS 공시
+2026-10-13,사당,matched,60,0,False,-65.5,49036,풀에버정문,688.5,635.5,11:29,10:36,53.0,rail,innovation,KTX-산천 382,KOBUS 공시
+2026-10-13,사당,optimistic,0,0,False,-3.0,49008,LH10단지,664.0,573.0,11:04,09:33,91.0,innovation,innovation,KOBUS 공시,KOBUS 공시
+2026-10-13,사당,optimistic,0,0,False,-3.0,49036,풀에버정문,664.0,573.0,11:04,09:33,91.0,innovation,innovation,KOBUS 공시,KOBUS 공시
+2026-10-13,사당,optimistic,10,0,False,-9.5,49008,LH10단지,676.5,579.5,11:17,09:40,97.0,innovation,innovation,KOBUS 공시,KOBUS 공시
+2026-10-13,사당,optimistic,10,0,False,-9.5,49036,풀에버정문,676.5,579.5,11:17,09:40,97.0,innovation,innovation,KOBUS 공시,KOBUS 공시
+2026-10-13,사당,optimistic,20,0,False,-22.5,49008,LH10단지,682.5,592.5,11:23,09:53,90.0,innovation,innovation,KOBUS 공시,KOBUS 공시
+2026-10-13,사당,optimistic,20,0,False,-22.5,49036,풀에버정문,682.5,592.5,11:23,09:53,90.0,innovation,innovation,KOBUS 공시,KOBUS 공시
+2026-10-13,사당,optimistic,30,0,False,-31.0,49008,LH10단지,688.5,601.0,11:29,10:01,87.5,rail,innovation,KTX-산천 382,KOBUS 공시
+2026-10-13,사당,optimistic,30,0,False,-31.0,49036,풀에버정문,688.5,601.0,11:29,10:01,87.5,rail,innovation,KTX-산천 382,KOBUS 공시
+2026-10-13,사당,optimistic,60,0,False,-65.5,49008,LH10단지,688.5,635.5,11:29,10:36,53.0,rail,innovation,KTX-산천 382,KOBUS 공시
+2026-10-13,사당,optimistic,60,0,False,-65.5,49036,풀에버정문,688.5,635.5,11:29,10:36,53.0,rail,innovation,KTX-산천 382,KOBUS 공시
+2026-10-15,강남,strict,0,0,True,3.0,49008,LH10단지,660.0,567.0,11:00,09:27,93.0,innovation,innovation,KOBUS 공시,KOBUS 공시
+2026-10-15,강남,strict,0,0,True,3.0,49036,풀에버정문,660.0,567.0,11:00,09:27,93.0,innovation,innovation,KOBUS 공시,KOBUS 공시
+2026-10-15,강남,strict,10,0,False,-6.5,49008,LH10단지,672.0,576.5,11:12,09:37,95.5,innovation,innovation,KOBUS 공시,KOBUS 공시
+2026-10-15,강남,strict,10,0,False,-6.5,49036,풀에버정문,672.0,576.5,11:12,09:37,95.5,innovation,innovation,KOBUS 공시,KOBUS 공시
+2026-10-15,강남,strict,20,0,False,-18.0,49008,LH10단지,678.0,588.0,11:18,09:48,90.0,innovation,innovation,KOBUS 공시,KOBUS 공시
+2026-10-15,강남,strict,20,0,False,-18.0,49036,풀에버정문,678.0,588.0,11:18,09:48,90.0,innovation,innovation,KOBUS 공시,KOBUS 공시
+2026-10-15,강남,strict,30,0,False,-25.0,49008,LH10단지,685.0,595.0,11:25,09:55,90.0,rail,innovation,KTX-산천 382,KOBUS 공시
+2026-10-15,강남,strict,30,0,False,-25.0,49036,풀에버정문,685.0,595.0,11:25,09:55,90.0,rail,innovation,KTX-산천 382,KOBUS 공시
+2026-10-15,강남,strict,60,0,False,-60.5,49008,LH10단지,685.0,630.5,11:25,10:31,54.5,rail,innovation,KTX-산천 382,KOBUS 공시
+2026-10-15,강남,strict,60,0,False,-60.5,49036,풀에버정문,685.0,630.5,11:25,10:31,54.5,rail,innovation,KTX-산천 382,KOBUS 공시
+2026-10-15,강남,matched,0,0,True,3.0,49008,LH10단지,660.0,567.0,11:00,09:27,93.0,innovation,innovation,KOBUS 공시,KOBUS 공시
+2026-10-15,강남,matched,0,0,True,3.0,49036,풀에버정문,660.0,567.0,11:00,09:27,93.0,innovation,innovation,KOBUS 공시,KOBUS 공시
+2026-10-15,강남,matched,10,0,False,-6.5,49008,LH10단지,672.0,576.5,11:12,09:37,95.5,innovation,innovation,KOBUS 공시,KOBUS 공시
+2026-10-15,강남,matched,10,0,False,-6.5,49036,풀에버정문,672.0,576.5,11:12,09:37,95.5,innovation,innovation,KOBUS 공시,KOBUS 공시
+2026-10-15,강남,matched,20,0,False,-18.0,49008,LH10단지,678.0,588.0,11:18,09:48,90.0,innovation,innovation,KOBUS 공시,KOBUS 공시
+2026-10-15,강남,matched,20,0,False,-18.0,49036,풀에버정문,678.0,588.0,11:18,09:48,90.0,innovation,innovation,KOBUS 공시,KOBUS 공시
+2026-10-15,강남,matched,30,0,False,-25.0,49008,LH10단지,685.0,595.0,11:25,09:55,90.0,rail,innovation,KTX-산천 382,KOBUS 공시
+2026-10-15,강남,matched,30,0,False,-25.0,49036,풀에버정문,685.0,595.0,11:25,09:55,90.0,rail,innovation,KTX-산천 382,KOBUS 공시
+2026-10-15,강남,matched,60,0,False,-60.5,49008,LH10단지,685.0,630.5,11:25,10:31,54.5,rail,innovation,KTX-산천 382,KOBUS 공시
+2026-10-15,강남,matched,60,0,False,-60.5,49036,풀에버정문,685.0,630.5,11:25,10:31,54.5,rail,innovation,KTX-산천 382,KOBUS 공시
+2026-10-15,강남,optimistic,0,0,True,3.0,49008,LH10단지,660.0,567.0,11:00,09:27,93.0,innovation,innovation,KOBUS 공시,KOBUS 공시
+2026-10-15,강남,optimistic,0,0,True,3.0,49036,풀에버정문,660.0,567.0,11:00,09:27,93.0,innovation,innovation,KOBUS 공시,KOBUS 공시
+2026-10-15,강남,optimistic,10,0,False,-6.5,49008,LH10단지,672.0,576.5,11:12,09:37,95.5,innovation,innovation,KOBUS 공시,KOBUS 공시
+2026-10-15,강남,optimistic,10,0,False,-6.5,49036,풀에버정문,672.0,576.5,11:12,09:37,95.5,innovation,innovation,KOBUS 공시,KOBUS 공시
+2026-10-15,강남,optimistic,20,0,False,-18.0,49008,LH10단지,678.0,588.0,11:18,09:48,90.0,innovation,innovation,KOBUS 공시,KOBUS 공시
+2026-10-15,강남,optimistic,20,0,False,-18.0,49036,풀에버정문,678.0,588.0,11:18,09:48,90.0,innovation,innovation,KOBUS 공시,KOBUS 공시
+2026-10-15,강남,optimistic,30,0,False,-25.0,49008,LH10단지,685.0,595.0,11:25,09:55,90.0,rail,innovation,KTX-산천 382,KOBUS 공시
+2026-10-15,강남,optimistic,30,0,False,-25.0,49036,풀에버정문,685.0,595.0,11:25,09:55,90.0,rail,innovation,KTX-산천 382,KOBUS 공시
+2026-10-15,강남,optimistic,60,0,False,-60.5,49008,LH10단지,685.0,630.5,11:25,10:31,54.5,rail,innovation,KTX-산천 382,KOBUS 공시
+2026-10-15,강남,optimistic,60,0,False,-60.5,49036,풀에버정문,685.0,630.5,11:25,10:31,54.5,rail,innovation,KTX-산천 382,KOBUS 공시
+2026-10-15,서울역,strict,0,0,False,-14.0,49008,LH10단지,680.5,584.0,11:21,09:44,96.5,innovation,innovation,KOBUS 공시,KOBUS 공시
+2026-10-15,서울역,strict,0,0,False,-14.0,49036,풀에버정문,680.5,584.0,11:21,09:44,96.5,innovation,innovation,KOBUS 공시,KOBUS 공시
+2026-10-15,서울역,strict,10,0,False,-23.5,49008,LH10단지,685.5,593.5,11:26,09:54,92.0,innovation,innovation,KOBUS 공시,KOBUS 공시
+2026-10-15,서울역,strict,10,0,False,-23.5,49036,풀에버정문,685.5,593.5,11:26,09:54,92.0,innovation,innovation,KOBUS 공시,KOBUS 공시
+2026-10-15,서울역,strict,20,0,False,-38.0,49008,LH10단지,696.5,608.0,11:37,10:08,88.5,innovation,innovation,KOBUS 공시,KOBUS 공시
+2026-10-15,서울역,strict,20,0,False,-38.0,49036,풀에버정문,696.5,608.0,11:37,10:08,88.5,innovation,innovation,KOBUS 공시,KOBUS 공시
+2026-10-15,서울역,strict,30,0,False,-42.5,49008,LH10단지,708.5,612.5,11:49,10:13,96.0,innovation,innovation,KOBUS 공시,KOBUS 공시
+2026-10-15,서울역,strict,30,0,False,-42.5,49036,풀에버정문,708.5,612.5,11:49,10:13,96.0,innovation,innovation,KOBUS 공시,KOBUS 공시
+2026-10-15,서울역,strict,60,0,False,-73.5,49008,LH10단지,708.5,643.5,11:49,10:44,65.0,rail,innovation,KTX-산천 382,KOBUS 공시
+2026-10-15,서울역,strict,60,0,False,-73.5,49036,풀에버정문,708.5,643.5,11:49,10:44,65.0,rail,innovation,KTX-산천 382,KOBUS 공시
+2026-10-15,서울역,matched,0,0,False,-14.0,49008,LH10단지,680.5,584.0,11:21,09:44,96.5,innovation,innovation,KOBUS 공시,KOBUS 공시
+2026-10-15,서울역,matched,0,0,False,-14.0,49036,풀에버정문,680.5,584.0,11:21,09:44,96.5,innovation,innovation,KOBUS 공시,KOBUS 공시
+2026-10-15,서울역,matched,10,0,False,-23.5,49008,LH10단지,685.5,593.5,11:26,09:54,92.0,innovation,innovation,KOBUS 공시,KOBUS 공시
+2026-10-15,서울역,matched,10,0,False,-23.5,49036,풀에버정문,685.5,593.5,11:26,09:54,92.0,innovation,innovation,KOBUS 공시,KOBUS 공시
+2026-10-15,서울역,matched,20,0,False,-38.0,49008,LH10단지,696.5,608.0,11:37,10:08,88.5,innovation,innovation,KOBUS 공시,KOBUS 공시
+2026-10-15,서울역,matched,20,0,False,-38.0,49036,풀에버정문,696.5,608.0,11:37,10:08,88.5,innovation,innovation,KOBUS 공시,KOBUS 공시
+2026-10-15,서울역,matched,30,0,False,-42.5,49008,LH10단지,708.5,612.5,11:49,10:13,96.0,innovation,innovation,KOBUS 공시,KOBUS 공시
+2026-10-15,서울역,matched,30,0,False,-42.5,49036,풀에버정문,708.5,612.5,11:49,10:13,96.0,innovation,innovation,KOBUS 공시,KOBUS 공시
+2026-10-15,서울역,matched,60,0,False,-73.5,49008,LH10단지,708.5,643.5,11:49,10:44,65.0,rail,innovation,KTX-산천 382,KOBUS 공시
+2026-10-15,서울역,matched,60,0,False,-73.5,49036,풀에버정문,708.5,643.5,11:49,10:44,65.0,rail,innovation,KTX-산천 382,KOBUS 공시
+2026-10-15,서울역,optimistic,0,0,False,-14.0,49008,LH10단지,680.5,584.0,11:21,09:44,96.5,innovation,innovation,KOBUS 공시,KOBUS 공시
+2026-10-15,서울역,optimistic,0,0,False,-14.0,49036,풀에버정문,680.5,584.0,11:21,09:44,96.5,innovation,innovation,KOBUS 공시,KOBUS 공시
+2026-10-15,서울역,optimistic,10,0,False,-23.5,49008,LH10단지,685.5,593.5,11:26,09:54,92.0,innovation,innovation,KOBUS 공시,KOBUS 공시
+2026-10-15,서울역,optimistic,10,0,False,-23.5,49036,풀에버정문,685.5,593.5,11:26,09:54,92.0,innovation,innovation,KOBUS 공시,KOBUS 공시
+2026-10-15,서울역,optimistic,20,0,False,-38.0,49008,LH10단지,696.5,608.0,11:37,10:08,88.5,innovation,innovation,KOBUS 공시,KOBUS 공시
+2026-10-15,서울역,optimistic,20,0,False,-38.0,49036,풀에버정문,696.5,608.0,11:37,10:08,88.5,innovation,innovation,KOBUS 공시,KOBUS 공시
+2026-10-15,서울역,optimistic,30,0,False,-42.5,49008,LH10단지,708.5,612.5,11:49,10:13,96.0,innovation,innovation,KOBUS 공시,KOBUS 공시
+2026-10-15,서울역,optimistic,30,0,False,-42.5,49036,풀에버정문,708.5,612.5,11:49,10:13,96.0,innovation,innovation,KOBUS 공시,KOBUS 공시
+2026-10-15,서울역,optimistic,60,0,False,-73.5,49008,LH10단지,708.5,643.5,11:49,10:44,65.0,rail,innovation,KTX-산천 382,KOBUS 공시
+2026-10-15,서울역,optimistic,60,0,False,-73.5,49036,풀에버정문,708.5,643.5,11:49,10:44,65.0,rail,innovation,KTX-산천 382,KOBUS 공시
+2026-10-15,사당,strict,0,0,False,-3.0,49008,LH10단지,664.0,573.0,11:04,09:33,91.0,innovation,innovation,KOBUS 공시,KOBUS 공시
+2026-10-15,사당,strict,0,0,False,-3.0,49036,풀에버정문,664.0,573.0,11:04,09:33,91.0,innovation,innovation,KOBUS 공시,KOBUS 공시
+2026-10-15,사당,strict,10,0,False,-9.5,49008,LH10단지,676.5,579.5,11:17,09:40,97.0,innovation,innovation,KOBUS 공시,KOBUS 공시
+2026-10-15,사당,strict,10,0,False,-9.5,49036,풀에버정문,676.5,579.5,11:17,09:40,97.0,innovation,innovation,KOBUS 공시,KOBUS 공시
+2026-10-15,사당,strict,20,0,False,-22.5,49008,LH10단지,682.5,592.5,11:23,09:53,90.0,innovation,innovation,KOBUS 공시,KOBUS 공시
+2026-10-15,사당,strict,20,0,False,-22.5,49036,풀에버정문,682.5,592.5,11:23,09:53,90.0,innovation,innovation,KOBUS 공시,KOBUS 공시
+2026-10-15,사당,strict,30,0,False,-31.0,49008,LH10단지,688.5,601.0,11:29,10:01,87.5,rail,innovation,KTX-산천 382,KOBUS 공시
+2026-10-15,사당,strict,30,0,False,-31.0,49036,풀에버정문,688.5,601.0,11:29,10:01,87.5,rail,innovation,KTX-산천 382,KOBUS 공시
+2026-10-15,사당,strict,60,0,False,-65.5,49008,LH10단지,688.5,635.5,11:29,10:36,53.0,rail,innovation,KTX-산천 382,KOBUS 공시
+2026-10-15,사당,strict,60,0,False,-65.5,49036,풀에버정문,688.5,635.5,11:29,10:36,53.0,rail,innovation,KTX-산천 382,KOBUS 공시
+2026-10-15,사당,matched,0,0,False,-3.0,49008,LH10단지,664.0,573.0,11:04,09:33,91.0,innovation,innovation,KOBUS 공시,KOBUS 공시
+2026-10-15,사당,matched,0,0,False,-3.0,49036,풀에버정문,664.0,573.0,11:04,09:33,91.0,innovation,innovation,KOBUS 공시,KOBUS 공시
+2026-10-15,사당,matched,10,0,False,-9.5,49008,LH10단지,676.5,579.5,11:17,09:40,97.0,innovation,innovation,KOBUS 공시,KOBUS 공시
+2026-10-15,사당,matched,10,0,False,-9.5,49036,풀에버정문,676.5,579.5,11:17,09:40,97.0,innovation,innovation,KOBUS 공시,KOBUS 공시
+2026-10-15,사당,matched,20,0,False,-22.5,49008,LH10단지,682.5,592.5,11:23,09:53,90.0,innovation,innovation,KOBUS 공시,KOBUS 공시
+2026-10-15,사당,matched,20,0,False,-22.5,49036,풀에버정문,682.5,592.5,11:23,09:53,90.0,innovation,innovation,KOBUS 공시,KOBUS 공시
+2026-10-15,사당,matched,30,0,False,-31.0,49008,LH10단지,688.5,601.0,11:29,10:01,87.5,rail,innovation,KTX-산천 382,KOBUS 공시
+2026-10-15,사당,matched,30,0,False,-31.0,49036,풀에버정문,688.5,601.0,11:29,10:01,87.5,rail,innovation,KTX-산천 382,KOBUS 공시
+2026-10-15,사당,matched,60,0,False,-65.5,49008,LH10단지,688.5,635.5,11:29,10:36,53.0,rail,innovation,KTX-산천 382,KOBUS 공시
+2026-10-15,사당,matched,60,0,False,-65.5,49036,풀에버정문,688.5,635.5,11:29,10:36,53.0,rail,innovation,KTX-산천 382,KOBUS 공시
+2026-10-15,사당,optimistic,0,0,False,-3.0,49008,LH10단지,664.0,573.0,11:04,09:33,91.0,innovation,innovation,KOBUS 공시,KOBUS 공시
+2026-10-15,사당,optimistic,0,0,False,-3.0,49036,풀에버정문,664.0,573.0,11:04,09:33,91.0,innovation,innovation,KOBUS 공시,KOBUS 공시
+2026-10-15,사당,optimistic,10,0,False,-9.5,49008,LH10단지,676.5,579.5,11:17,09:40,97.0,innovation,innovation,KOBUS 공시,KOBUS 공시
+2026-10-15,사당,optimistic,10,0,False,-9.5,49036,풀에버정문,676.5,579.5,11:17,09:40,97.0,innovation,innovation,KOBUS 공시,KOBUS 공시
+2026-10-15,사당,optimistic,20,0,False,-22.5,49008,LH10단지,682.5,592.5,11:23,09:53,90.0,innovation,innovation,KOBUS 공시,KOBUS 공시
+2026-10-15,사당,optimistic,20,0,False,-22.5,49036,풀에버정문,682.5,592.5,11:23,09:53,90.0,innovation,innovation,KOBUS 공시,KOBUS 공시
+2026-10-15,사당,optimistic,30,0,False,-31.0,49008,LH10단지,688.5,601.0,11:29,10:01,87.5,rail,innovation,KTX-산천 382,KOBUS 공시
+2026-10-15,사당,optimistic,30,0,False,-31.0,49036,풀에버정문,688.5,601.0,11:29,10:01,87.5,rail,innovation,KTX-산천 382,KOBUS 공시
+2026-10-15,사당,optimistic,60,0,False,-65.5,49008,LH10단지,688.5,635.5,11:29,10:36,53.0,rail,innovation,KTX-산천 382,KOBUS 공시
+2026-10-15,사당,optimistic,60,0,False,-65.5,49036,풀에버정문,688.5,635.5,11:29,10:36,53.0,rail,innovation,KTX-산천 382,KOBUS 공시
+2026-10-17,강남,strict,0,0,False,-6.5,49008,LH10단지,678.5,576.5,11:19,09:37,102.0,rail,innovation,KTX-산천 382,KOBUS 공시
+2026-10-17,강남,strict,0,0,False,-6.5,49036,풀에버정문,678.5,576.5,11:19,09:37,102.0,rail,innovation,KTX-산천 382,KOBUS 공시
+2026-10-17,강남,strict,10,0,False,-19.0,49008,LH10단지,678.5,589.0,11:19,09:49,89.5,rail,innovation,KTX-산천 382,KOBUS 공시
+2026-10-17,강남,strict,10,0,False,-19.0,49036,풀에버정문,678.5,589.0,11:19,09:49,89.5,rail,innovation,KTX-산천 382,KOBUS 공시
+2026-10-17,강남,strict,20,0,False,-30.0,49008,LH10단지,678.5,600.0,11:19,10:00,78.5,rail,innovation,KTX-산천 382,KOBUS 공시
+2026-10-17,강남,strict,20,0,False,-30.0,49036,풀에버정문,678.5,600.0,11:19,10:00,78.5,rail,innovation,KTX-산천 382,KOBUS 공시
+2026-10-17,강남,strict,30,0,False,-41.0,49008,LH10단지,678.5,611.0,11:19,10:11,67.5,rail,innovation,KTX-산천 382,KOBUS 공시
+2026-10-17,강남,strict,30,0,False,-41.0,49036,풀에버정문,678.5,611.0,11:19,10:11,67.5,rail,innovation,KTX-산천 382,KOBUS 공시
+2026-10-17,강남,strict,60,0,False,-68.5,49008,LH10단지,678.5,638.5,11:19,10:39,40.0,rail,innovation,KTX-산천 382,KOBUS 공시
+2026-10-17,강남,strict,60,0,False,-68.5,49036,풀에버정문,678.5,638.5,11:19,10:39,40.0,rail,innovation,KTX-산천 382,KOBUS 공시
+2026-10-17,강남,matched,0,0,False,-6.5,49008,LH10단지,658.5,576.5,10:59,09:37,82.0,gaeyang,innovation,KOBUS 공시,KOBUS 공시
+2026-10-17,강남,matched,0,0,False,-6.5,49036,풀에버정문,678.5,576.5,11:19,09:37,102.0,rail,innovation,KTX-산천 382,KOBUS 공시
+2026-10-17,강남,matched,10,0,False,-19.0,49008,LH10단지,669.0,589.0,11:09,09:49,80.0,gaeyang,innovation,KOBUS 공시,KOBUS 공시
+2026-10-17,강남,matched,10,0,False,-19.0,49036,풀에버정문,678.5,589.0,11:19,09:49,89.5,rail,innovation,KTX-산천 382,KOBUS 공시
+2026-10-17,강남,matched,20,0,False,-30.0,49008,LH10단지,678.5,600.0,11:19,10:00,78.5,rail,innovation,KTX-산천 382,KOBUS 공시
+2026-10-17,강남,matched,20,0,False,-30.0,49036,풀에버정문,678.5,600.0,11:19,10:00,78.5,rail,innovation,KTX-산천 382,KOBUS 공시
+2026-10-17,강남,matched,30,0,False,-41.0,49008,LH10단지,678.5,611.0,11:19,10:11,67.5,rail,innovation,KTX-산천 382,KOBUS 공시
+2026-10-17,강남,matched,30,0,False,-41.0,49036,풀에버정문,678.5,611.0,11:19,10:11,67.5,rail,innovation,KTX-산천 382,KOBUS 공시
+2026-10-17,강남,matched,60,0,False,-68.5,49008,LH10단지,678.5,638.5,11:19,10:39,40.0,rail,innovation,KTX-산천 382,KOBUS 공시
+2026-10-17,강남,matched,60,0,False,-68.5,49036,풀에버정문,678.5,638.5,11:19,10:39,40.0,rail,innovation,KTX-산천 382,KOBUS 공시
+2026-10-17,강남,optimistic,0,0,False,-6.5,49008,LH10단지,658.5,576.5,10:59,09:37,82.0,gaeyang,innovation,KOBUS 공시,KOBUS 공시
+2026-10-17,강남,optimistic,0,0,False,-6.5,49036,풀에버정문,658.5,576.5,10:59,09:37,82.0,gaeyang,innovation,KOBUS 공시,KOBUS 공시
+2026-10-17,강남,optimistic,10,0,False,-19.0,49008,LH10단지,669.0,589.0,11:09,09:49,80.0,gaeyang,innovation,KOBUS 공시,KOBUS 공시
+2026-10-17,강남,optimistic,10,0,False,-19.0,49036,풀에버정문,669.0,589.0,11:09,09:49,80.0,gaeyang,innovation,KOBUS 공시,KOBUS 공시
+2026-10-17,강남,optimistic,20,0,False,-30.0,49008,LH10단지,678.5,600.0,11:19,10:00,78.5,rail,innovation,KTX-산천 382,KOBUS 공시
+2026-10-17,강남,optimistic,20,0,False,-30.0,49036,풀에버정문,678.5,600.0,11:19,10:00,78.5,rail,innovation,KTX-산천 382,KOBUS 공시
+2026-10-17,강남,optimistic,30,0,False,-41.0,49008,LH10단지,678.5,611.0,11:19,10:11,67.5,rail,innovation,KTX-산천 382,KOBUS 공시
+2026-10-17,강남,optimistic,30,0,False,-41.0,49036,풀에버정문,678.5,611.0,11:19,10:11,67.5,rail,innovation,KTX-산천 382,KOBUS 공시
+2026-10-17,강남,optimistic,60,0,False,-68.5,49008,LH10단지,678.5,638.5,11:19,10:39,40.0,rail,innovation,KTX-산천 382,KOBUS 공시
+2026-10-17,강남,optimistic,60,0,False,-68.5,49036,풀에버정문,678.5,638.5,11:19,10:39,40.0,rail,innovation,KTX-산천 382,KOBUS 공시
+2026-10-17,서울역,strict,0,0,False,-27.5,49008,LH10단지,699.5,597.5,11:40,09:58,102.0,innovation,innovation,KOBUS 공시,KOBUS 공시
+2026-10-17,서울역,strict,0,0,False,-27.5,49036,풀에버정문,699.5,597.5,11:40,09:58,102.0,innovation,innovation,KOBUS 공시,KOBUS 공시
+2026-10-17,서울역,strict,10,0,False,-39.5,49008,LH10단지,705.5,609.5,11:46,10:10,96.0,innovation,innovation,KOBUS 공시,KOBUS 공시
+2026-10-17,서울역,strict,10,0,False,-39.5,49036,풀에버정문,705.5,609.5,11:46,10:10,96.0,innovation,innovation,KOBUS 공시,KOBUS 공시
+2026-10-17,서울역,strict,20,0,False,-45.5,49008,LH10단지,705.5,615.5,11:46,10:16,90.0,rail,innovation,KTX-산천 382,KOBUS 공시
+2026-10-17,서울역,strict,20,0,False,-45.5,49036,풀에버정문,705.5,615.5,11:46,10:16,90.0,rail,innovation,KTX-산천 382,KOBUS 공시
+2026-10-17,서울역,strict,30,0,False,-57.5,49008,LH10단지,705.5,627.5,11:46,10:28,78.0,rail,innovation,KTX-산천 382,KOBUS 공시
+2026-10-17,서울역,strict,30,0,False,-57.5,49036,풀에버정문,705.5,627.5,11:46,10:28,78.0,rail,innovation,KTX-산천 382,KOBUS 공시
+2026-10-17,서울역,strict,60,0,False,-87.5,49008,LH10단지,705.5,657.5,11:46,10:58,48.0,rail,innovation,KTX-산천 382,KOBUS 공시
+2026-10-17,서울역,strict,60,0,False,-87.5,49036,풀에버정문,705.5,657.5,11:46,10:58,48.0,rail,innovation,KTX-산천 382,KOBUS 공시
+2026-10-17,서울역,matched,0,0,False,-27.5,49008,LH10단지,675.5,597.5,11:16,09:58,78.0,gaeyang,innovation,KOBUS 공시,KOBUS 공시
+2026-10-17,서울역,matched,0,0,False,-27.5,49036,풀에버정문,699.5,597.5,11:40,09:58,102.0,innovation,innovation,KOBUS 공시,KOBUS 공시
+2026-10-17,서울역,matched,10,0,False,-39.5,49008,LH10단지,687.5,609.5,11:28,10:10,78.0,gaeyang,innovation,KOBUS 공시,KOBUS 공시
+2026-10-17,서울역,matched,10,0,False,-39.5,49036,풀에버정문,705.5,609.5,11:46,10:10,96.0,innovation,innovation,KOBUS 공시,KOBUS 공시
+2026-10-17,서울역,matched,20,0,False,-45.5,49008,LH10단지,699.5,615.5,11:40,10:16,84.0,gaeyang,innovation,KOBUS 공시,KOBUS 공시
+2026-10-17,서울역,matched,20,0,False,-45.5,49036,풀에버정문,705.5,615.5,11:46,10:16,90.0,rail,innovation,KTX-산천 382,KOBUS 공시
+2026-10-17,서울역,matched,30,0,False,-57.5,49008,LH10단지,705.5,627.5,11:46,10:28,78.0,rail,innovation,KTX-산천 382,KOBUS 공시
+2026-10-17,서울역,matched,30,0,False,-57.5,49036,풀에버정문,705.5,627.5,11:46,10:28,78.0,rail,innovation,KTX-산천 382,KOBUS 공시
+2026-10-17,서울역,matched,60,0,False,-87.5,49008,LH10단지,705.5,657.5,11:46,10:58,48.0,rail,innovation,KTX-산천 382,KOBUS 공시
+2026-10-17,서울역,matched,60,0,False,-87.5,49036,풀에버정문,705.5,657.5,11:46,10:58,48.0,rail,innovation,KTX-산천 382,KOBUS 공시
+2026-10-17,서울역,optimistic,0,0,False,-27.5,49008,LH10단지,675.5,597.5,11:16,09:58,78.0,gaeyang,innovation,KOBUS 공시,KOBUS 공시
+2026-10-17,서울역,optimistic,0,0,False,-27.5,49036,풀에버정문,675.5,597.5,11:16,09:58,78.0,gaeyang,innovation,KOBUS 공시,KOBUS 공시
+2026-10-17,서울역,optimistic,10,0,False,-39.5,49008,LH10단지,687.5,609.5,11:28,10:10,78.0,gaeyang,innovation,KOBUS 공시,KOBUS 공시
+2026-10-17,서울역,optimistic,10,0,False,-39.5,49036,풀에버정문,687.5,609.5,11:28,10:10,78.0,gaeyang,innovation,KOBUS 공시,KOBUS 공시
+2026-10-17,서울역,optimistic,20,0,False,-45.5,49008,LH10단지,699.5,615.5,11:40,10:16,84.0,gaeyang,innovation,KOBUS 공시,KOBUS 공시
+2026-10-17,서울역,optimistic,20,0,False,-45.5,49036,풀에버정문,699.5,615.5,11:40,10:16,84.0,gaeyang,innovation,KOBUS 공시,KOBUS 공시
+2026-10-17,서울역,optimistic,30,0,False,-57.5,49008,LH10단지,705.5,627.5,11:46,10:28,78.0,rail,innovation,KTX-산천 382,KOBUS 공시
+2026-10-17,서울역,optimistic,30,0,False,-57.5,49036,풀에버정문,705.5,627.5,11:46,10:28,78.0,rail,innovation,KTX-산천 382,KOBUS 공시
+2026-10-17,서울역,optimistic,60,0,False,-87.5,49008,LH10단지,705.5,657.5,11:46,10:58,48.0,rail,innovation,KTX-산천 382,KOBUS 공시
+2026-10-17,서울역,optimistic,60,0,False,-87.5,49036,풀에버정문,705.5,657.5,11:46,10:58,48.0,rail,innovation,KTX-산천 382,KOBUS 공시
+2026-10-17,사당,strict,0,0,False,-14.0,49008,LH10단지,683.0,584.0,11:23,09:44,99.0,innovation,innovation,KOBUS 공시,KOBUS 공시
+2026-10-17,사당,strict,0,0,False,-14.0,49036,풀에버정문,683.0,584.0,11:23,09:44,99.0,innovation,innovation,KOBUS 공시,KOBUS 공시
+2026-10-17,사당,strict,10,0,False,-23.0,49008,LH10단지,688.0,593.0,11:28,09:53,95.0,rail,innovation,KTX-산천 382,KOBUS 공시
+2026-10-17,사당,strict,10,0,False,-23.0,49036,풀에버정문,688.0,593.0,11:28,09:53,95.0,rail,innovation,KTX-산천 382,KOBUS 공시
+2026-10-17,사당,strict,20,0,False,-36.5,49008,LH10단지,688.0,606.5,11:28,10:07,81.5,rail,innovation,KTX-산천 382,KOBUS 공시
+2026-10-17,사당,strict,20,0,False,-36.5,49036,풀에버정문,688.0,606.5,11:28,10:07,81.5,rail,innovation,KTX-산천 382,KOBUS 공시
+2026-10-17,사당,strict,30,0,False,-46.0,49008,LH10단지,688.0,616.0,11:28,10:16,72.0,rail,innovation,KTX-산천 382,KOBUS 공시
+2026-10-17,사당,strict,30,0,False,-46.0,49036,풀에버정문,688.0,616.0,11:28,10:16,72.0,rail,innovation,KTX-산천 382,KOBUS 공시
+2026-10-17,사당,strict,60,0,False,-69.5,49008,LH10단지,688.0,639.5,11:28,10:40,48.5,rail,innovation,KTX-산천 382,KOBUS 공시
+2026-10-17,사당,strict,60,0,False,-69.5,49036,풀에버정문,688.0,639.5,11:28,10:40,48.5,rail,innovation,KTX-산천 382,KOBUS 공시
+2026-10-17,사당,matched,0,0,False,-14.0,49008,LH10단지,666.0,584.0,11:06,09:44,82.0,gaeyang,innovation,KOBUS 공시,KOBUS 공시
+2026-10-17,사당,matched,0,0,False,-14.0,49036,풀에버정문,683.0,584.0,11:23,09:44,99.0,innovation,innovation,KOBUS 공시,KOBUS 공시
+2026-10-17,사당,matched,10,0,False,-23.0,49008,LH10단지,670.0,593.0,11:10,09:53,77.0,gaeyang,innovation,KOBUS 공시,KOBUS 공시
+2026-10-17,사당,matched,10,0,False,-23.0,49036,풀에버정문,688.0,593.0,11:28,09:53,95.0,rail,innovation,KTX-산천 382,KOBUS 공시
+2026-10-17,사당,matched,20,0,False,-36.5,49008,LH10단지,683.0,606.5,11:23,10:07,76.5,gaeyang,innovation,KOBUS 공시,KOBUS 공시
+2026-10-17,사당,matched,20,0,False,-36.5,49036,풀에버정문,688.0,606.5,11:28,10:07,81.5,rail,innovation,KTX-산천 382,KOBUS 공시
+2026-10-17,사당,matched,30,0,False,-46.0,49008,LH10단지,688.0,616.0,11:28,10:16,72.0,rail,innovation,KTX-산천 382,KOBUS 공시
+2026-10-17,사당,matched,30,0,False,-46.0,49036,풀에버정문,688.0,616.0,11:28,10:16,72.0,rail,innovation,KTX-산천 382,KOBUS 공시
+2026-10-17,사당,matched,60,0,False,-69.5,49008,LH10단지,688.0,639.5,11:28,10:40,48.5,rail,innovation,KTX-산천 382,KOBUS 공시
+2026-10-17,사당,matched,60,0,False,-69.5,49036,풀에버정문,688.0,639.5,11:28,10:40,48.5,rail,innovation,KTX-산천 382,KOBUS 공시
+2026-10-17,사당,optimistic,0,0,False,-14.0,49008,LH10단지,666.0,584.0,11:06,09:44,82.0,gaeyang,innovation,KOBUS 공시,KOBUS 공시
+2026-10-17,사당,optimistic,0,0,False,-14.0,49036,풀에버정문,666.0,584.0,11:06,09:44,82.0,gaeyang,innovation,KOBUS 공시,KOBUS 공시
+2026-10-17,사당,optimistic,10,0,False,-23.0,49008,LH10단지,670.0,593.0,11:10,09:53,77.0,gaeyang,innovation,KOBUS 공시,KOBUS 공시
+2026-10-17,사당,optimistic,10,0,False,-23.0,49036,풀에버정문,670.0,593.0,11:10,09:53,77.0,gaeyang,innovation,KOBUS 공시,KOBUS 공시
+2026-10-17,사당,optimistic,20,0,False,-36.5,49008,LH10단지,683.0,606.5,11:23,10:07,76.5,gaeyang,innovation,KOBUS 공시,KOBUS 공시
+2026-10-17,사당,optimistic,20,0,False,-36.5,49036,풀에버정문,683.0,606.5,11:23,10:07,76.5,gaeyang,innovation,KOBUS 공시,KOBUS 공시
+2026-10-17,사당,optimistic,30,0,False,-46.0,49008,LH10단지,688.0,616.0,11:28,10:16,72.0,rail,innovation,KTX-산천 382,KOBUS 공시
+2026-10-17,사당,optimistic,30,0,False,-46.0,49036,풀에버정문,688.0,616.0,11:28,10:16,72.0,rail,innovation,KTX-산천 382,KOBUS 공시
+2026-10-17,사당,optimistic,60,0,False,-69.5,49008,LH10단지,688.0,639.5,11:28,10:40,48.5,rail,innovation,KTX-산천 382,KOBUS 공시
+2026-10-17,사당,optimistic,60,0,False,-69.5,49036,풀에버정문,688.0,639.5,11:28,10:40,48.5,rail,innovation,KTX-산천 382,KOBUS 공시
+2026-10-18,강남,strict,0,0,True,25.5,49008,LH10단지,658.5,544.5,10:59,09:05,114.0,innovation,innovation,KOBUS 공시,KOBUS 공시
+2026-10-18,강남,strict,0,0,True,25.5,49036,풀에버정문,658.5,544.5,10:59,09:05,114.0,innovation,innovation,KOBUS 공시,KOBUS 공시
+2026-10-18,강남,strict,10,0,True,8.5,49008,LH10단지,669.0,561.5,11:09,09:22,107.5,innovation,innovation,KOBUS 공시,KOBUS 공시
+2026-10-18,강남,strict,10,0,True,8.5,49036,풀에버정문,669.0,561.5,11:09,09:22,107.5,innovation,innovation,KOBUS 공시,KOBUS 공시
+2026-10-18,강남,strict,20,0,False,-3.5,49008,LH10단지,678.5,573.5,11:19,09:34,105.0,rail,innovation,KTX-산천 382,KOBUS 공시
+2026-10-18,강남,strict,20,0,False,-3.5,49036,풀에버정문,678.5,573.5,11:19,09:34,105.0,rail,innovation,KTX-산천 382,KOBUS 공시
+2026-10-18,강남,strict,30,0,False,-6.5,49008,LH10단지,678.5,576.5,11:19,09:37,102.0,rail,innovation,KTX-산천 382,KOBUS 공시
+2026-10-18,강남,strict,30,0,False,-6.5,49036,풀에버정문,678.5,576.5,11:19,09:37,102.0,rail,innovation,KTX-산천 382,KOBUS 공시
+2026-10-18,강남,strict,60,0,False,-41.0,49008,LH10단지,678.5,611.0,11:19,10:11,67.5,rail,innovation,KTX-산천 382,KOBUS 공시
+2026-10-18,강남,strict,60,0,False,-41.0,49036,풀에버정문,678.5,611.0,11:19,10:11,67.5,rail,innovation,KTX-산천 382,KOBUS 공시
+2026-10-18,강남,matched,0,0,True,25.5,49008,LH10단지,658.5,544.5,10:59,09:05,114.0,innovation,innovation,KOBUS 공시,KOBUS 공시
+2026-10-18,강남,matched,0,0,True,25.5,49036,풀에버정문,658.5,544.5,10:59,09:05,114.0,innovation,innovation,KOBUS 공시,KOBUS 공시
+2026-10-18,강남,matched,10,0,True,8.5,49008,LH10단지,669.0,561.5,11:09,09:22,107.5,innovation,innovation,KOBUS 공시,KOBUS 공시
+2026-10-18,강남,matched,10,0,True,8.5,49036,풀에버정문,669.0,561.5,11:09,09:22,107.5,innovation,innovation,KOBUS 공시,KOBUS 공시
+2026-10-18,강남,matched,20,0,False,-3.5,49008,LH10단지,678.5,573.5,11:19,09:34,105.0,rail,innovation,KTX-산천 382,KOBUS 공시
+2026-10-18,강남,matched,20,0,False,-3.5,49036,풀에버정문,678.5,573.5,11:19,09:34,105.0,rail,innovation,KTX-산천 382,KOBUS 공시
+2026-10-18,강남,matched,30,0,False,-6.5,49008,LH10단지,678.5,576.5,11:19,09:37,102.0,rail,innovation,KTX-산천 382,KOBUS 공시
+2026-10-18,강남,matched,30,0,False,-6.5,49036,풀에버정문,678.5,576.5,11:19,09:37,102.0,rail,innovation,KTX-산천 382,KOBUS 공시
+2026-10-18,강남,matched,60,0,False,-41.0,49008,LH10단지,678.5,611.0,11:19,10:11,67.5,rail,innovation,KTX-산천 382,KOBUS 공시
+2026-10-18,강남,matched,60,0,False,-41.0,49036,풀에버정문,678.5,611.0,11:19,10:11,67.5,rail,innovation,KTX-산천 382,KOBUS 공시
+2026-10-18,강남,optimistic,0,0,True,25.5,49008,LH10단지,658.5,544.5,10:59,09:05,114.0,innovation,innovation,KOBUS 공시,KOBUS 공시
+2026-10-18,강남,optimistic,0,0,True,25.5,49036,풀에버정문,658.5,544.5,10:59,09:05,114.0,innovation,innovation,KOBUS 공시,KOBUS 공시
+2026-10-18,강남,optimistic,10,0,True,8.5,49008,LH10단지,669.0,561.5,11:09,09:22,107.5,innovation,innovation,KOBUS 공시,KOBUS 공시
+2026-10-18,강남,optimistic,10,0,True,8.5,49036,풀에버정문,669.0,561.5,11:09,09:22,107.5,innovation,innovation,KOBUS 공시,KOBUS 공시
+2026-10-18,강남,optimistic,20,0,False,-3.5,49008,LH10단지,678.5,573.5,11:19,09:34,105.0,rail,innovation,KTX-산천 382,KOBUS 공시
+2026-10-18,강남,optimistic,20,0,False,-3.5,49036,풀에버정문,678.5,573.5,11:19,09:34,105.0,rail,innovation,KTX-산천 382,KOBUS 공시
+2026-10-18,강남,optimistic,30,0,False,-6.5,49008,LH10단지,678.5,576.5,11:19,09:37,102.0,rail,innovation,KTX-산천 382,KOBUS 공시
+2026-10-18,강남,optimistic,30,0,False,-6.5,49036,풀에버정문,678.5,576.5,11:19,09:37,102.0,rail,innovation,KTX-산천 382,KOBUS 공시
+2026-10-18,강남,optimistic,60,0,False,-41.0,49008,LH10단지,678.5,611.0,11:19,10:11,67.5,rail,innovation,KTX-산천 382,KOBUS 공시
+2026-10-18,강남,optimistic,60,0,False,-41.0,49036,풀에버정문,678.5,611.0,11:19,10:11,67.5,rail,innovation,KTX-산천 382,KOBUS 공시
+2026-10-18,서울역,strict,0,0,True,2.5,49008,LH10단지,675.5,567.5,11:16,09:28,108.0,innovation,innovation,KOBUS 공시,KOBUS 공시
+2026-10-18,서울역,strict,0,0,True,2.5,49036,풀에버정문,675.5,567.5,11:16,09:28,108.0,innovation,innovation,KOBUS 공시,KOBUS 공시
+2026-10-18,서울역,strict,10,0,False,-9.5,49008,LH10단지,687.5,579.5,11:28,09:40,108.0,innovation,innovation,KOBUS 공시,KOBUS 공시
+2026-10-18,서울역,strict,10,0,False,-9.5,49036,풀에버정문,687.5,579.5,11:28,09:40,108.0,innovation,innovation,KOBUS 공시,KOBUS 공시
+2026-10-18,서울역,strict,20,0,False,-15.5,49008,LH10단지,699.5,585.5,11:40,09:46,114.0,innovation,innovation,KOBUS 공시,KOBUS 공시
+2026-10-18,서울역,strict,20,0,False,-15.5,49036,풀에버정문,699.5,585.5,11:40,09:46,114.0,innovation,innovation,KOBUS 공시,KOBUS 공시
+2026-10-18,서울역,strict,30,0,False,-27.5,49008,LH10단지,705.5,597.5,11:46,09:58,108.0,innovation,innovation,KOBUS 공시,KOBUS 공시
+2026-10-18,서울역,strict,30,0,False,-27.5,49036,풀에버정문,705.5,597.5,11:46,09:58,108.0,innovation,innovation,KOBUS 공시,KOBUS 공시
+2026-10-18,서울역,strict,60,0,False,-57.5,49008,LH10단지,705.5,627.5,11:46,10:28,78.0,rail,innovation,KTX-산천 382,KOBUS 공시
+2026-10-18,서울역,strict,60,0,False,-57.5,49036,풀에버정문,705.5,627.5,11:46,10:28,78.0,rail,innovation,KTX-산천 382,KOBUS 공시
+2026-10-18,서울역,matched,0,0,True,2.5,49008,LH10단지,675.5,567.5,11:16,09:28,108.0,innovation,innovation,KOBUS 공시,KOBUS 공시
+2026-10-18,서울역,matched,0,0,True,2.5,49036,풀에버정문,675.5,567.5,11:16,09:28,108.0,innovation,innovation,KOBUS 공시,KOBUS 공시
+2026-10-18,서울역,matched,10,0,False,-9.5,49008,LH10단지,687.5,579.5,11:28,09:40,108.0,innovation,innovation,KOBUS 공시,KOBUS 공시
+2026-10-18,서울역,matched,10,0,False,-9.5,49036,풀에버정문,687.5,579.5,11:28,09:40,108.0,innovation,innovation,KOBUS 공시,KOBUS 공시
+2026-10-18,서울역,matched,20,0,False,-15.5,49008,LH10단지,699.5,585.5,11:40,09:46,114.0,innovation,innovation,KOBUS 공시,KOBUS 공시
+2026-10-18,서울역,matched,20,0,False,-15.5,49036,풀에버정문,699.5,585.5,11:40,09:46,114.0,innovation,innovation,KOBUS 공시,KOBUS 공시
+2026-10-18,서울역,matched,30,0,False,-27.5,49008,LH10단지,705.5,597.5,11:46,09:58,108.0,innovation,innovation,KOBUS 공시,KOBUS 공시
+2026-10-18,서울역,matched,30,0,False,-27.5,49036,풀에버정문,705.5,597.5,11:46,09:58,108.0,innovation,innovation,KOBUS 공시,KOBUS 공시
+2026-10-18,서울역,matched,60,0,False,-57.5,49008,LH10단지,705.5,627.5,11:46,10:28,78.0,rail,innovation,KTX-산천 382,KOBUS 공시
+2026-10-18,서울역,matched,60,0,False,-57.5,49036,풀에버정문,705.5,627.5,11:46,10:28,78.0,rail,innovation,KTX-산천 382,KOBUS 공시
+2026-10-18,서울역,optimistic,0,0,True,2.5,49008,LH10단지,675.5,567.5,11:16,09:28,108.0,innovation,innovation,KOBUS 공시,KOBUS 공시
+2026-10-18,서울역,optimistic,0,0,True,2.5,49036,풀에버정문,675.5,567.5,11:16,09:28,108.0,innovation,innovation,KOBUS 공시,KOBUS 공시
+2026-10-18,서울역,optimistic,10,0,False,-9.5,49008,LH10단지,687.5,579.5,11:28,09:40,108.0,innovation,innovation,KOBUS 공시,KOBUS 공시
+2026-10-18,서울역,optimistic,10,0,False,-9.5,49036,풀에버정문,687.5,579.5,11:28,09:40,108.0,innovation,innovation,KOBUS 공시,KOBUS 공시
+2026-10-18,서울역,optimistic,20,0,False,-15.5,49008,LH10단지,699.5,585.5,11:40,09:46,114.0,innovation,innovation,KOBUS 공시,KOBUS 공시
+2026-10-18,서울역,optimistic,20,0,False,-15.5,49036,풀에버정문,699.5,585.5,11:40,09:46,114.0,innovation,innovation,KOBUS 공시,KOBUS 공시
+2026-10-18,서울역,optimistic,30,0,False,-27.5,49008,LH10단지,705.5,597.5,11:46,09:58,108.0,innovation,innovation,KOBUS 공시,KOBUS 공시
+2026-10-18,서울역,optimistic,30,0,False,-27.5,49036,풀에버정문,705.5,597.5,11:46,09:58,108.0,innovation,innovation,KOBUS 공시,KOBUS 공시
+2026-10-18,서울역,optimistic,60,0,False,-57.5,49008,LH10단지,705.5,627.5,11:46,10:28,78.0,rail,innovation,KTX-산천 382,KOBUS 공시
+2026-10-18,서울역,optimistic,60,0,False,-57.5,49036,풀에버정문,705.5,627.5,11:46,10:28,78.0,rail,innovation,KTX-산천 382,KOBUS 공시
+2026-10-18,사당,strict,0,0,True,19.5,49008,LH10단지,666.0,550.5,11:06,09:11,115.5,innovation,innovation,KOBUS 공시,KOBUS 공시
+2026-10-18,사당,strict,0,0,True,19.5,49036,풀에버정문,666.0,550.5,11:06,09:11,115.5,innovation,innovation,KOBUS 공시,KOBUS 공시
+2026-10-18,사당,strict,10,0,True,4.0,49008,LH10단지,670.0,566.0,11:10,09:26,104.0,innovation,innovation,KOBUS 공시,KOBUS 공시
+2026-10-18,사당,strict,10,0,True,4.0,49036,풀에버정문,670.0,566.0,11:10,09:26,104.0,innovation,innovation,KOBUS 공시,KOBUS 공시
+2026-10-18,사당,strict,20,0,False,-8.5,49008,LH10단지,683.0,578.5,11:23,09:39,104.5,innovation,innovation,KOBUS 공시,KOBUS 공시
+2026-10-18,사당,strict,20,0,False,-8.5,49036,풀에버정문,683.0,578.5,11:23,09:39,104.5,innovation,innovation,KOBUS 공시,KOBUS 공시
+2026-10-18,사당,strict,30,0,False,-14.0,49008,LH10단지,688.0,584.0,11:28,09:44,104.0,rail,innovation,KTX-산천 382,KOBUS 공시
+2026-10-18,사당,strict,30,0,False,-14.0,49036,풀에버정문,688.0,584.0,11:28,09:44,104.0,rail,innovation,KTX-산천 382,KOBUS 공시
+2026-10-18,사당,strict,60,0,False,-46.0,49008,LH10단지,688.0,616.0,11:28,10:16,72.0,rail,innovation,KTX-산천 382,KOBUS 공시
+2026-10-18,사당,strict,60,0,False,-46.0,49036,풀에버정문,688.0,616.0,11:28,10:16,72.0,rail,innovation,KTX-산천 382,KOBUS 공시
+2026-10-18,사당,matched,0,0,True,19.5,49008,LH10단지,666.0,550.5,11:06,09:11,115.5,innovation,innovation,KOBUS 공시,KOBUS 공시
+2026-10-18,사당,matched,0,0,True,19.5,49036,풀에버정문,666.0,550.5,11:06,09:11,115.5,innovation,innovation,KOBUS 공시,KOBUS 공시
+2026-10-18,사당,matched,10,0,True,4.0,49008,LH10단지,670.0,566.0,11:10,09:26,104.0,innovation,innovation,KOBUS 공시,KOBUS 공시
+2026-10-18,사당,matched,10,0,True,4.0,49036,풀에버정문,670.0,566.0,11:10,09:26,104.0,innovation,innovation,KOBUS 공시,KOBUS 공시
+2026-10-18,사당,matched,20,0,False,-8.5,49008,LH10단지,683.0,578.5,11:23,09:39,104.5,innovation,innovation,KOBUS 공시,KOBUS 공시
+2026-10-18,사당,matched,20,0,False,-8.5,49036,풀에버정문,683.0,578.5,11:23,09:39,104.5,innovation,innovation,KOBUS 공시,KOBUS 공시
+2026-10-18,사당,matched,30,0,False,-14.0,49008,LH10단지,688.0,584.0,11:28,09:44,104.0,rail,innovation,KTX-산천 382,KOBUS 공시
+2026-10-18,사당,matched,30,0,False,-14.0,49036,풀에버정문,688.0,584.0,11:28,09:44,104.0,rail,innovation,KTX-산천 382,KOBUS 공시
+2026-10-18,사당,matched,60,0,False,-46.0,49008,LH10단지,688.0,616.0,11:28,10:16,72.0,rail,innovation,KTX-산천 382,KOBUS 공시
+2026-10-18,사당,matched,60,0,False,-46.0,49036,풀에버정문,688.0,616.0,11:28,10:16,72.0,rail,innovation,KTX-산천 382,KOBUS 공시
+2026-10-18,사당,optimistic,0,0,True,19.5,49008,LH10단지,666.0,550.5,11:06,09:11,115.5,innovation,innovation,KOBUS 공시,KOBUS 공시
+2026-10-18,사당,optimistic,0,0,True,19.5,49036,풀에버정문,666.0,550.5,11:06,09:11,115.5,innovation,innovation,KOBUS 공시,KOBUS 공시
+2026-10-18,사당,optimistic,10,0,True,4.0,49008,LH10단지,670.0,566.0,11:10,09:26,104.0,innovation,innovation,KOBUS 공시,KOBUS 공시
+2026-10-18,사당,optimistic,10,0,True,4.0,49036,풀에버정문,670.0,566.0,11:10,09:26,104.0,innovation,innovation,KOBUS 공시,KOBUS 공시
+2026-10-18,사당,optimistic,20,0,False,-8.5,49008,LH10단지,683.0,578.5,11:23,09:39,104.5,innovation,innovation,KOBUS 공시,KOBUS 공시
+2026-10-18,사당,optimistic,20,0,False,-8.5,49036,풀에버정문,683.0,578.5,11:23,09:39,104.5,innovation,innovation,KOBUS 공시,KOBUS 공시
+2026-10-18,사당,optimistic,30,0,False,-14.0,49008,LH10단지,688.0,584.0,11:28,09:44,104.0,rail,innovation,KTX-산천 382,KOBUS 공시
+2026-10-18,사당,optimistic,30,0,False,-14.0,49036,풀에버정문,688.0,584.0,11:28,09:44,104.0,rail,innovation,KTX-산천 382,KOBUS 공시
+2026-10-18,사당,optimistic,60,0,False,-46.0,49008,LH10단지,688.0,616.0,11:28,10:16,72.0,rail,innovation,KTX-산천 382,KOBUS 공시
+2026-10-18,사당,optimistic,60,0,False,-46.0,49036,풀에버정문,688.0,616.0,11:28,10:16,72.0,rail,innovation,KTX-산천 382,KOBUS 공시

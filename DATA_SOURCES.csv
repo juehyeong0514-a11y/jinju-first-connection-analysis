@@ -11,3 +11,5 @@
 10,TAGO 시외버스정보,국토교통부,공공데이터포털,https://www.data.go.kr/data/15098541/openapi.do,결측·보조 대안 점검
 12,공동주택현황(20세대 이상),경상남도 진주시,공공데이터포털,https://www.data.go.kr/data/15046124/fileData.do,관련 단지 주택 수
 13,충무공동 세대 및 인구,경상남도 진주시,진주시 홈페이지,https://www.jinju.go.kr/00135/01114/01906.web,행정동 규모와 단지 구분
+14,하모콜버스 공식 이용안내,경상남도 진주시,진주 BIS,https://bis.jinju.go.kr/addInfo/addInfoMaas.do,기존 DRT 지역·시간과 비교
+15,접근성 지표와 교통계획(2019),OECD/ITF,ITF 공식 출판물,https://itf-oecd.org/transport-planning-investment-accessibility-indicators,사용자 도착 기회 지표 근거
