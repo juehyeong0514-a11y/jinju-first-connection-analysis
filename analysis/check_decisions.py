@@ -1,4 +1,4 @@
-"""Meaningful invariants and fixed counterexamples for the v4 scenarios."""
+"""Meaningful invariants and fixed counterexamples for the v5 scenarios."""
 import json
 from collections import defaultdict
 from itertools import product
@@ -10,6 +10,8 @@ def check(value,group):
     passed+=1;groups[group]+=1
 
 def order(x):return float('inf') if x is None else x
+for field,count in [('opportunities',225),('departure_constraints',540),('delay_comparison',450),('conditional_taxi',360),('focal_options',8),('walking_sensitivity',360),('walking_point_options',30)]:
+    check(isinstance(D[field],list) and len(D[field])==count,'scenario output schema')
 # Default starting time is compatible with every core baseline/feeder result.
 for d,t,m,p in product(ad.ar.DATES,ad.ar.TARGETS,ad.MODES,['baseline','feeder']):
     old=ad.ar.run(d,t,m,p);new=ad.run(d,t,m,p)
@@ -65,6 +67,28 @@ for target,road,rail,policy in product(ad.ar.TARGETS,[0,10,30],[0,10],['baseline
     a=ad.run(target=target,coach_delay=road,rail_delay=rail,policy=policy)
     b=ad.run(target=target,coach_delay=road,rail_delay=rail,entry_extra=10,policy=policy)
     check(all(order(x['arrival'])<=order(y['arrival']) for x,y in zip(a['results'],b['results'])),'station entry walking monotonicity')
+# More allowed walking only adds paths; it cannot worsen earliest arrival.
+for d,t,m,p in product(ad.ar.DATES,ad.ar.TARGETS,ad.MODES,['baseline','feeder']):
+    previous=None
+    for cap in ad.WALK_CAPS:
+        current=ad.run(d,t,m,p,walk_cap=cap)
+        if previous:check(all(order(b['arrival'])<=order(a['arrival']) for a,b in zip(previous['results'],current['results'])),'walking allowance monotonicity')
+        previous=current
+for r in D['walking_sensitivity']:
+    check(r['advance']==r['baseline']-r['feeder'],'walking comparison arithmetic')
+    check(r['baseline_local_walk']<=r['walk_cap'],'selected path respects walking allowance')
+    check(r['baseline_count_0930']<=r['feeder_count_0930']<=20,'walking opportunity bounds')
+    if r['walk_cap']==40:check(r['advance']==0 and r['baseline_source']=='map_walk','40 minute walk removes focal marginal arrival gain')
+for r in D['walking_point_options']:
+    check(r['latest_departure']+r['walk_minutes']+5+10==ad.ar.first_coach(r['date']),'mapped walk boarding chronology')
+    check(r['regional_fare']==0,'direct walking regional fare')
+# Distinct mapped points are not silently substituted for representative stops.
+weekday=[r for r in D['walking_sensitivity'] if r['date']=='2026-10-08' and r['target']=='강남' and r['branch_mode']=='matched']
+check(next(r for r in weekday if r['walk_cap']==30 and r['origin_id']=='49008')['advance']==0,'LH10 30 minute allowance removes arrival gain')
+check(next(r for r in weekday if r['walk_cap']==30 and r['origin_id']=='49036')['advance']==93,'Pool representative walk32 is beyond30')
+for oid,minutes in [('49008',28),('49036',31)]:
+    point=next(r for r in D['walking_point_options'] if r['date']=='2026-10-08' and r['target']=='강남' and r['origin_id']==oid)
+    check(point['walk_minutes']==minutes and point['arrival']==567,'mapped direct walk same first coach')
 result={'passed':passed,'groups':dict(groups),'scope':'계산'+' 일관성·반례 검증. 실측 신뢰도·새벽 배차·정시확률·우승 가능성을 검증하지 않음.'}
 (ad.OUT/'validation.json').write_text(json.dumps(result,ensure_ascii=False,indent=2))
-print('v4 invariant checks:',passed,'groups:',len(groups))
+print('v5 invariant checks:',passed,'groups:',len(groups))

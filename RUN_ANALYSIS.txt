@@ -1,7 +1,7 @@
-진주 새벽 첫 연결 분석 - 공개자료 검증판 v4 (2026-10-08)
+진주 새벽 첫 연결 분석 - 공개자료 검증판 v5 (2026-10-08)
 
 최신: 20개 대표 정류장, 5개 날짜, 강남/서울역/사당, 3개 지선배정 가정.
-본문5쪽+참고문헌1쪽, 검증부록12쪽. v1/v2 코드는 비교용 이전 버전입니다.
+본문5쪽+참고문헌1쪽, 검증부록13쪽. v1/v2 코드는 비교용 이전 버전입니다.
 
 1. 캐시로 최신 분석 재현 (Python 3.10 이상, API 키·네트워크·추가 패키지 불필요)
    python3 analysis/repair_transfer_aliases.py
@@ -11,7 +11,7 @@
    python3 analysis/check_decisions.py
    결과: outputs/robust/analysis.json, calendar_destination_comparison.csv,
          alias_audit.json, recovered_transfer_paths.json, validation.json
-         outputs/decisions/analysis.json, validation.json, 목표시각/출발/지연/택시 CSV 5개
+         outputs/decisions/analysis.json, validation.json, 목표시각/출발/지연/택시 CSV 7개
    180개 시나리오·300개 지점/날짜/목적지 비교·8,100개 비용 조합.
    v4: 목표시각225행·출발조건540행·지연비교450행·택시360행 추가.
    시간순서·전철 열차번호·지선 경계·코드대응·비용 등 내부 논리 검사.
@@ -20,7 +20,7 @@
 2. PDF 재생성 (reportlab 필요)
    python3 analysis/build_robust_report.py
    output/pdf/jinju_first_connection_analysis.pdf (본문5쪽+참고문헌)
-   output/pdf/jinju_first_connection_evidence.pdf (별도 검증부록12쪽)
+   output/pdf/jinju_first_connection_evidence.pdf (별도 검증부록13쪽)
    macOS AppleGothic 사용. 다른 OS는 KR_FONT 환경변수에 한글 TTF 경로 지정.
    AppleGothic 글꼴 파일은 묶음에 포함하지 않습니다.
    예전 build_strengthened_report.py는 이전 버전으로 현재 파일을 덮어쓰므로
@@ -39,6 +39,13 @@
    자동 미래 TAGO 빈 응답을 무운행으로 해석하지 않습니다.
 
 4. 개선안과 해석의 중요 조건
+ - v5: 지역 보행 한계10/20/30/40분을 추가 비교. 93분은20분 가정 아래의 값.
+   40분 허용이면 두 핵심 지점 모두 기존 첫차를 타고 연계의 추가 개선0분.
+   20분은 실제 주민 선호나 법정 지원 기준이 아니며 보행 제약 주민 수 미확인.
+ - 대표 정류장 보행26/32분과 상세 지도 지점28/31분은 출발점이 다르다.
+   상세지점 평일 직보행04:47/04:44 출발→강남09:27, 지역 운임0원.
+   새벽 현장 보행환경·개인 보행능력·승차권을 확인한 결과는 아니다.
+ - 주소만으로 지원 필요를 정하지 않음. 개별 보행 대안과 부담을 먼저 확인.
  - v4는 첫차 연결과 지역 부담을 함께 비교. 기존 예약택시도 같은 첫차 가능.
    지도지점 차량 확보·대기0·주행5분이면 평일05:10출발→강남09:27.
    연계보다32~34분 늦게 출발. 새벽 배차·호출/예약료·실제 견적은 미검증.

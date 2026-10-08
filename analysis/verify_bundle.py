@@ -9,7 +9,7 @@ with zipfile.ZipFile(bundle) as z:
     manifest=json.loads(z.read('outputs/strengthened/source_manifest.json'))
     for r in manifest['files']:
         b=z.read(r['path']);assert hashlib.sha256(b).hexdigest()==r['sha256'] and len(b)==r['bytes'],r['path']
-    expected={n:z.read(n) for n in ['outputs/robust/analysis.json','outputs/robust/validation.json','outputs/robust/alias_audit.json','outputs/robust/recovered_transfer_paths.json','outputs/robust/calendar_destination_comparison.csv','outputs/decisions/analysis.json','outputs/decisions/validation.json','outputs/decisions/arrival_opportunities.csv','outputs/decisions/departure_constraints.csv','outputs/decisions/delay_comparison.csv','outputs/decisions/conditional_taxi.csv','outputs/decisions/focal_options.csv']}
+    expected={n:z.read(n) for n in ['outputs/robust/analysis.json','outputs/robust/validation.json','outputs/robust/alias_audit.json','outputs/robust/recovered_transfer_paths.json','outputs/robust/calendar_destination_comparison.csv','outputs/decisions/analysis.json','outputs/decisions/validation.json','outputs/decisions/arrival_opportunities.csv','outputs/decisions/departure_constraints.csv','outputs/decisions/delay_comparison.csv','outputs/decisions/conditional_taxi.csv','outputs/decisions/focal_options.csv','outputs/decisions/walking_sensitivity.csv','outputs/decisions/walking_point_options.csv']}
     with tempfile.TemporaryDirectory(prefix='jinju-offline-reproduction-') as temp:
         target=Path(temp);z.extractall(target)
         guard=target/'network_guard';guard.mkdir();(guard/'sitecustomize.py').write_text("import socket\ndef blocked(*args,**kwargs):raise RuntimeError('Networking disabled during reproduction')\nsocket.socket.connect=blocked\nsocket.create_connection=blocked\n")

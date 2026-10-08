@@ -46,3 +46,14 @@ for r in options:assert float(r['journey_minutes'])==float(r['arrival'])-float(r
 print('v4: 225 deadline counts, 540 departure cases, 450 road-delay comparisons, 360 conditional taxi cases')
 print('Counterexamples: 09:00 no added focal opportunity; +10 min coach delay -> 09:37; 05:00 availability misses feeder')
 print('Taxi: a booked vehicle at the mapped point can use the same first coach; availability, fare and delay probabilities were not measured.')
+
+walk=load_rows('walking_sensitivity.csv');points=load_rows('walking_point_options.csv')
+assert len(walk)==360 and len(points)==30
+for r in walk:
+ assert float(r['advance'])==float(r['baseline'])-float(r['feeder'])
+ assert float(r['baseline_local_walk'])<=float(r['walk_cap'])
+ if r['walk_cap']=='40':assert float(r['advance'])==0 and r['baseline_source']=='map_walk'
+for r in points:
+ assert float(r['latest_departure'])+float(r['walk_minutes'])+15==minute(r['first_coach'])
+ assert r['regional_fare']=='0'
+print('v5 walking: 40 minute allowance removes the focal marginal arrival gain; actual walking needs were not surveyed.')

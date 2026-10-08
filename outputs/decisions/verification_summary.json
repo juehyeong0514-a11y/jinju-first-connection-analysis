@@ -1,6 +1,7 @@
 {
-  "passed": 11356,
+  "passed": 12867,
   "groups": {
+    "scenario output schema": 7,
     "v3 default compatibility": 1800,
     "regional boarding chronology": 1800,
     "zero shock identity": 1800,
@@ -24,7 +25,17 @@
     "05:00 availability misses added first feeder": 2,
     "conditional taxi can use same coach": 2,
     "taxi path actually selected": 2,
-    "station entry walking monotonicity": 36
+    "station entry walking monotonicity": 36,
+    "walking allowance monotonicity": 270,
+    "walking comparison arithmetic": 360,
+    "selected path respects walking allowance": 360,
+    "walking opportunity bounds": 360,
+    "40 minute walk removes focal marginal arrival gain": 90,
+    "mapped walk boarding chronology": 30,
+    "direct walking regional fare": 30,
+    "LH10 30 minute allowance removes arrival gain": 1,
+    "Pool representative walk32 is beyond30": 1,
+    "mapped direct walk same first coach": 2
   },
   "scope": "계산 일관성·반례 검증. 실측 신뢰도·새벽 배차·정시확률·우승 가능성을 검증하지 않음.",
   "full_cache_reproduction": "Source route joins require the separate local cache bundle; published CSV review is distinct."
